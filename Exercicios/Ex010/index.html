@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Medidas em html</title>
 </head>
 <body>
   <h1>Imagem dinâmica</h1>
@@ -11,9 +11,11 @@
   ou simplesmente aumente e dimunua o tamanho do seu navegador</p>
 
   <picture>
-    <source media="(max-width: 1000px)" srcset="Imagens/fotoM.png" 
+    <source media="(max-width: 750px)" srcset="Imagens/fotoP.png" 
+    type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/fotoM.png" 
     type="image/png"> 
-    <img src="Imagens/fotoG.png" alt="FotoGrande">
+    <img src="Imagens/fotoG.png" alt="Imagem flexível">
   </picture>
 
 </body>
