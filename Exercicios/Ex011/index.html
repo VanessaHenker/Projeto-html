@@ -3,27 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Videos com html5</title>
+  <title>Meus videos</title>
+  <style>
+    body{
+      background-color: #1C1C1C;
+      color:white;
+    }
+  </style>
+  <style>
+    .h1-lado{
+      float: left; 
+      margin-right: 700px;
+    }
+  </style>
+  <style>
+    .imagem-lado{
+      float: left;
+      margin-left: 570px;
+      
+    }
+    .imagem-lado2{
+      float: right;
+      margin-right: 700px;
+    }
+  </style>
+  
 </head>
 <body>
-  <h1>Inserindo videos hospedados localmente</h1>
-  <p>Este video está hospedado no meu próprio servidor</p>
   
-  <p>Teste</p>
-  <video width="560" controls autoplay loop>
-   <source src="Midia/meuVideo.mp4"  type="video/mp4">
-   <source src="Midia/meuVideo.webm" type="video/webm">
-   <p>Seu navegador não tem contabilidade com reprodução 
-    de videos.
-   </p>
-  </video>
+  <h1 class="h1-lado"></h1>
+  <h1>Videos legais para assistir</h1>
   
-  <h1>Inserindo videos do YouTube</h1> 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=ufHkihMIKtcBYIX1" 
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  
-  <h1>Inserindo video do Vimeo</h1>
-  <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</body>
+  <a href="pag02.html"><img src="Imagens/cursoHTML.jpeg" alt="minha-imagem" class="imagem-lado"></a>
+  <a href="pag03.html"><img src="Imagens/cursoJavascript.jpeg" alt="minha-imagem" class="imagem-lado2"></a>
+  <br>
+  <a href="pag04.html"><img src="Imagens/cursoPHB.jpeg" alt="minha-imagem" class="imagem-lado"></a>
+  <a href="pag05.html"><img src="Imagens/cursoLogicaProg.jpeg" alt="minha-imagem" class="imagem-lado2"></a>
+  </body>
 </html>
