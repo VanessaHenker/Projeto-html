@@ -13,8 +13,16 @@ h1{
   margin-left: 100px;
 }
 
-h2{
-  color: black;
+nav {
+  color: #fff;
   text-align: right;
   margin-right: 100px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+nav a:hover {
+  background-color: #666;
 }
