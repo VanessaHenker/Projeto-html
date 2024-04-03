@@ -6,26 +6,26 @@
 
 body{
   background-image: linear-gradient(to right, #D53469 ,#D53A67, #D65163,#D8755C, #D7715D,#DAAD52 );
-  
 }
-nav {
+
+nav{
   color: #fff;
   text-align: right;
   margin-right: 100px;
   padding: 35px;
-  
 }
+
 nav a {
   color: #0f0f0fe0;
   text-decoration: none;
   padding: 20px 30px;
-  
 }
+
 nav a:hover {
   background-color: white;
   border-radius: 100px;
-  
 }
+
 h1{
   color: white;
   float: left; 
@@ -40,6 +40,7 @@ j1{
   font-size: 35px;
   padding: 40px;
 }
+
 h2{
   color: #C0C0C0;
   float: left; 
@@ -57,8 +58,8 @@ h2{
 
 .imagem-lado{
   float: right;
- 
 }
+
 .container{
   position: absolute;
   height: 200px;
@@ -67,6 +68,9 @@ h2{
   left: 1200px;
 }
 
+svg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
-
-
+}
