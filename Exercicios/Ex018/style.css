@@ -1,5 +1,6 @@
 @charset "UtF-8";
 
+
 *{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -69,7 +70,6 @@ h2{
 .imagem-lado{
   float: right;
 }
-
 .container{
   position: absolute;
   height: 200px;
