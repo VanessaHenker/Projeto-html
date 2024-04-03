@@ -50,20 +50,20 @@ h2{
 .aumentar-fonte{
   font-size: 70px;
   color: white;
-  float: right; 
-  margin-right: 1280px;
+  float: right;
+  margin-top: 2px; 
+  margin-right: 1290px;
 }
+
 .imagem-lado{
   float: right;
  
-  
 }
-
 .container{
   position: absolute;
   height: 200px;
   width: 200px;
-  top: 260px;
+  top: 210px;
   left: 1200px;
 }
 
