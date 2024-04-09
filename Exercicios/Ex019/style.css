@@ -29,7 +29,8 @@ a:hover {
   background-color: black;
   border-radius: 100px;
 }
-.nav2{
+
+.destaques{
   text-align: left;
   float: left;
   margin-left: 560px;
@@ -38,7 +39,7 @@ a:hover {
   
   color: white;
   text-decoration-line: none;
-  padding: 10px 15px;
+  padding: 13px 15px;
   
   padding-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +47,9 @@ a:hover {
   background-color: #0583F2;
   border-radius: 5px;
 }
-
+.destaques:hover {
+  background-color:black;
+}
 .gif{
   margin-left: -2px;
   width: 15px;
