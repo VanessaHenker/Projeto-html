@@ -21,12 +21,25 @@ nav{
 
 nav a {
   color: white;
-  text-decoration: none;
+  text-decoration-line: none;
   padding: 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover {
+  background-color: black;
+  border-radius: 100px;
+}
+
+.nav2{
+ text-align: left;
+  margin-left: 800px;
+  margin-top: -50px;
+  padding: 5px;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   border-radius: 100px;
 }
