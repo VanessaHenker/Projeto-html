@@ -58,7 +58,7 @@ a:hover {
 .destaques{
   text-align: left;
   float: left;
-  margin-left: 540px;
+  margin-left: 570px;
   margin-top: -60px;
   padding: 5px;
   
@@ -80,8 +80,8 @@ a:hover {
   text-align: center;
   float: left;
   margin-left: -950px;
-  margin-top: 420px;
-  padding: 5px;
+  margin-top: 430px;
+  padding: 10px;
   
   color: white;
   text-decoration-line: none;
@@ -100,8 +100,8 @@ a:hover {
   text-align: center;
   float: left;
   margin-left: -780px;
-  margin-top: 420px;
-  padding: 5px;
+  margin-top: 430px;
+  padding: 10px;
   
   color: #0583F2;
   text-decoration-line: none;
@@ -126,5 +126,10 @@ a:hover {
 .gif{
   margin-left: -2px;
   width: 15px;
+}
 
+img{
+  left: left;
+  margin-left: 500px;
+  
 }
