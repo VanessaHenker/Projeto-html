@@ -1,3 +1,4 @@
+
 *{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -16,7 +17,7 @@ body{
   flex-direction:row;
   align-items:center;
   justify-content: space-around;
-  padding: 15px;
+  padding: 30px;
   color: white;
 }
 
@@ -27,9 +28,10 @@ body{
 .cabecalho-menu{
   display: flex;
   gap: 34px;
-  
 }
+
 .cabecalho-menu-item{
+  font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-weight: 400;
@@ -37,13 +39,13 @@ body{
 
 .cabecalho-menu-item2{
   font-weight: 400;
-  font-size: 15px;
-  margin-left: 150px;
+  font-size: 18px;
+  margin-left: 100px;
 }
 
 .cabecalho-menu-destaque{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #23A6F0;
   border-radius: 5px;
   padding: 10px 10px;
@@ -52,5 +54,40 @@ body{
 
 .cabecalho-icon{
   height: 15px;
-  margin-left: 5px;
+}
+
+.conteudo{
+  margin-bottom: 30px;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-pequeno{
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color:  #0583F2;
+}
+.conteudo-principal-escrito-titulo{
+  font-weight: 400;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  font-weight: 400;
+  font-size: 22px;
+  color: #DCDCDC;
+  
+
+}
+.conteudo-principal-imagem{
+  margin-top: 60px;
+  height: 450px;
 }
