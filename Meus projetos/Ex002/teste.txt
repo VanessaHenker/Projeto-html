@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lading page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<h2><strong>BrandName</strong></h2>
+ <nav>
+  <h5><a href="#">Home</a>
+    <a href="#">Product</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+    <a style="margin-left: 230px;" href="#"> Login</a></h5>
+ </nav>
+  
+ <div>
+  <h5 class="destaques">JOIN US<img src="Imagens/icons8-arrow.gif" alt="img" class="gif"></h5>
+ </div>
+   
+  <h5 class="JoinUs">Join Us</h5>
+  <h1 class="aumentar-fonte"> Highly <br> Distinguished <br> Courses</h1>
+
+  <p class="fonte2">We know how large objects will act, <br> 
+  but things on a small scale</p>
+
+  <div>
+    <h5 class="bottom1">Get Quote Now
+    <h5 class="bottom2">Learn More</h5>
+  </div>
+  
+  <div >
+    <img src="Imagens/imagem.png" alt="img" class="img">
+  </div>
+  
+</body>
+</html>
+
+
+
+
+CSS
+@charset "UTF-8";
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color:#252B42;
+}
+
+h2{
+  color: white;
+  float: left; 
+  margin-left: 180px;
+}
+
+.JoinUs{
+  color: #0583F2;
+  float:left;
+  margin-left: -950px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+}
+
+.aumentar-fonte{
+  font-size: 45px;
+  color: white;
+  margin-top: 120px; 
+  float: left;
+  margin-left: -950px;
+}
+
+.fonte2{
+  font-size: 20px;
+  color: #DCDCDC;
+  margin-top: 320px; 
+  float: left;
+  margin-left: -950px;
+}
+
+nav{
+  color: white;
+  text-align: left;
+  margin-left: 400px;
+  padding: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration-line: none;
+  padding: 12px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  background-color: black;
+  border-radius: 100px;
+}
+
+.destaques{
+  text-align: center;
+  float: left;
+  margin-left: 990px;
+  margin-top: -60px;
+  padding: 5px;
+  padding-left: 20px;
+  
+  color: white;
+  text-decoration-line: none;
+  padding: 13px 20px;
+  
+  padding-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #23A6F0;
+  border-radius: 5px;
+}
+.destaques:hover {
+  background-color:black;
+}
+
+.bottom1{
+  text-align: center;
+  float: left;
+  margin-left: -950px;
+  margin-top: 410px;
+  padding: 10px;
+  
+  color: white;
+  text-decoration-line: none;
+  padding: 15px 30px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #23A6F0;
+  border-radius: 5px;
+}
+
+.bottom1:hover{
+  background-color: #134775;
+}
+.bottom2{
+  text-align: center;
+  float: left;
+  margin-left: -780px;
+  margin-top: 410px;
+  padding: 10px;
+  
+  color: #0583F2;
+  text-decoration-line: none;
+  padding: 15px 30px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #252B42;
+  border-color: #0583F2;
+  border-style: solid;
+  
+  border-top: 1px solid #0583F2;
+  border-left: 1px solid #0583F2;
+  border-right: 1px solid #0583F2;
+  border-bottom: 1px solid #0583F2; 
+  
+  border-radius: 5px;
+}
+.bottom2:hover{
+  background-color: #134775;
+}
+.gif{
+  margin-left: 5px;
+  margin-top: 2px;
+  width: 15px;
+}
+
+img{
+  left: left;
+  margin-left: 590px;
+  width: 400px;
+  margin-top: 60px;
+}
