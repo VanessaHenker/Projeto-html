@@ -16,45 +16,41 @@ body{
   flex-direction:row;
   align-items:center;
   justify-content: space-around;
-  padding: 25px;
-  
-}
-.cabecalho-nome-principal{
+  padding: 15px;
   color: white;
 }
 
+.cabecalho-fonte{
+  font-size: 30px;
+}
+  
 .cabecalho-menu{
   display: flex;
   gap: 34px;
   
 }
 .cabecalho-menu-item{
-  color: white;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .cabecalho-menu-item2{
-  color: white;
   font-weight: 400;
   font-size: 15px;
-  align-items: center;
-  flex-direction:row;
+  margin-left: 150px;
 }
+
 .cabecalho-menu-destaque{
-  color: white;
   font-weight: 400;
   font-size: 14px;
   background-color: #23A6F0;
   border-radius: 5px;
-  margin-top: -9px;
   padding: 10px 10px;
-  align-items: center;
-  flex-direction:row;
- 
-  
+  margin-top: -10px;
 }
 
 .cabecalho-icon{
   height: 15px;
+  margin-left: 5px;
 }
