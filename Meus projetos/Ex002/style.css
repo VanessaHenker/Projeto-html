@@ -37,10 +37,18 @@ body{
   font-weight: 400;
 }
 
+.cabecalho-menu-item:hover{
+  color: #0583F2;
+}
+
 .cabecalho-menu-item2{
   font-weight: 400;
   font-size: 18px;
   margin-left: 100px;
+}
+
+.cabecalho-menu-item2:hover{
+  color: #0583F2;
 }
 
 .cabecalho-menu-destaque{
@@ -52,8 +60,11 @@ body{
   margin-top: -10px;
 }
 
+.cabecalho-menu-destaque:hover{
+  background-color: #134775;
+}
 .cabecalho-icon{
-  height: 15px;
+  height: 17px;
 }
 
 .conteudo{
@@ -84,10 +95,44 @@ body{
   font-weight: 400;
   font-size: 22px;
   color: #DCDCDC;
-  
-
+  margin-bottom: 50px;
 }
 .conteudo-principal-imagem{
-  margin-top: 60px;
   height: 450px;
+  margin-top: 40px;
+
+}
+.conteudo-principal-escrito-botao1{
+  background-color: #23A6F0;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400px;
+  font-size: 20px;
+  color: white;
+}
+
+.conteudo-principal-escrito-botao1:hover{
+  background-color: #134775;
+}
+
+.conteudo-principal-escrito-botao2{
+  background-color: #23A6F0;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400px;
+  font-size: 20px;
+  margin-left: 10px;
+  
+  color:#0583F2;
+  background-color: #252B42;
+  border-top: 1px solid #0583F2;
+  border-left: 1px solid #0583F2;
+  border-right: 1px solid #0583F2;
+  border-bottom: 1px solid #0583F2; 
+}
+
+.conteudo-principal-escrito-botao2:hover{
+  background-color: #134775;
 }
