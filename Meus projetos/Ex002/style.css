@@ -1,138 +1,140 @@
+@charset "UTF-8";
 
 *{
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
 }
 
 body{
-  font-size: 100%;
-  background:#252B42;
+  background-color:#252B42;
 }
 
-.cabecalho{
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: space-around;
-  padding: 30px;
+h2{
   color: white;
+  float: left; 
+  margin-left: 180px;
 }
 
-.cabecalho-fonte{
-  font-size: 30px;
-}
-  
-.cabecalho-menu{
-  display: flex;
-  gap: 34px;
-}
-
-.cabecalho-menu-item{
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.cabecalho-menu-item:hover{
+.JoinUs{
   color: #0583F2;
+  float:left;
+  margin-left: -950px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
 }
 
-.cabecalho-menu-item2{
-  font-weight: 400;
-  font-size: 18px;
-  margin-left: 100px;
-}
-
-.cabecalho-menu-item2:hover{
-  color: #0583F2;
-}
-
-.cabecalho-menu-destaque{
-  font-weight: 400;
-  font-size: 16px;
-  background-color: #23A6F0;
-  border-radius: 5px;
-  padding: 10px 10px;
-  margin-top: -10px;
-}
-
-.cabecalho-menu-destaque:hover{
-  background-color: #134775;
-}
-.cabecalho-icon{
-  height: 17px;
-}
-
-.conteudo{
-  margin-bottom: 30px;
-}
-
-.conteudo-principal{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.conteudo-principal-pequeno{
-  font-weight: 400;
-  font-size: 20px;
-  margin-bottom: 30px;
-  color:  #0583F2;
-}
-.conteudo-principal-escrito-titulo{
-  font-weight: 400;
+.aumentar-fonte{
   font-size: 45px;
   color: white;
-  margin-bottom: 20px;
+  margin-top: 120px; 
+  float: left;
+  margin-left: -950px;
 }
 
-.conteudo-principal-escrito-subtitulo{
-  font-weight: 400;
-  font-size: 22px;
-  color: #DCDCDC;
-  margin-bottom: 50px;
-}
-.conteudo-principal-imagem{
-  height: 450px;
-  margin-top: 40px;
-
-}
-.conteudo-principal-escrito-botao1{
-  background-color: #23A6F0;
-  padding: 20px 10px;
-  border: none;
-  border-radius: 10px;
-  font-weight: 400px;
+.fonte2{
   font-size: 20px;
-  color: white;
+  color: #DCDCDC;
+  margin-top: 320px; 
+  float: left;
+  margin-left: -950px;
 }
 
-.conteudo-principal-escrito-botao1:hover{
+nav{
+  color: white;
+  text-align: left;
+  margin-left: 400px;
+  padding: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration-line: none;
+  padding: 12px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  background-color: black;
+  border-radius: 100px;
+}
+
+.destaques{
+  text-align: center;
+  float: left;
+  margin-left: 990px;
+  margin-top: -60px;
+  padding: 5px;
+  padding-left: 20px;
+  
+  color: white;
+  text-decoration-line: none;
+  padding: 13px 20px;
+  
+  padding-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #23A6F0;
+  border-radius: 5px;
+}
+.destaques:hover {
+  background-color:black;
+}
+
+.bottom1{
+  text-align: center;
+  float: left;
+  margin-left: -950px;
+  margin-top: 410px;
+  padding: 10px;
+  
+  color: white;
+  text-decoration-line: none;
+  padding: 15px 30px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #23A6F0;
+  border-radius: 5px;
+}
+
+.bottom1:hover{
   background-color: #134775;
 }
-
-.conteudo-principal-escrito-botao2{
-  background-color: #23A6F0;
-  padding: 20px 10px;
-  border: none;
-  border-radius: 5px;
-  font-weight: 400px;
-  font-size: 20px;
-  margin-left: 10px;
+.bottom2{
+  text-align: center;
+  float: left;
+  margin-left: -780px;
+  margin-top: 410px;
+  padding: 10px;
   
-  color:#0583F2;
+  color: #0583F2;
+  text-decoration-line: none;
+  padding: 15px 30px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  
   background-color: #252B42;
+  border-color: #0583F2;
+  border-style: solid;
+  
   border-top: 1px solid #0583F2;
   border-left: 1px solid #0583F2;
   border-right: 1px solid #0583F2;
   border-bottom: 1px solid #0583F2; 
+  
+  border-radius: 5px;
+}
+.bottom2:hover{
+  background-color: #134775;
+}
+.gif{
+  margin-left: 5px;
+  margin-top: 2px;
+  width: 15px;
 }
 
-.conteudo-principal-escrito-botao2:hover{
-  background-color: #134775;
+img{
+  left: left;
+  margin-left: 590px;
+  width: 400px;
+  margin-top: 60px;
 }
