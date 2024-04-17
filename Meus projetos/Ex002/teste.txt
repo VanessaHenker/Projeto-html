@@ -3,183 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lading page</title>
+  <title>Lading Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- 
-<h2><strong>BrandName</strong></h2>
- <nav>
-  <h5><a href="#">Home</a>
-    <a href="#">Product</a>
-    <a href="#">Pricing</a>
-    <a href="#">Contact</a>
-    <a style="margin-left: 230px;" href="#"> Login</a></h5>
- </nav>
-  
- <div>
-  <h5 class="destaques">JOIN US<img src="Imagens/icons8-arrow.gif" alt="img" class="gif"></h5>
- </div>
-   
-  <h5 class="JoinUs">Join Us</h5>
-  <h1 class="aumentar-fonte"> Highly <br> Distinguished <br> Courses</h1>
+  <header class="cabecalho">
+    <h2 class="cabecalho-fonte"><strong>BrandName</strong></h2>
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item">Home</a>
+      <a class="cabecalho-menu-item">Product</a>
+      <a class="cabecalho-menu-item">Pricing</a>
+      <a class="cabecalho-menu-item">Contact</a>
+      <a class="cabecalho-menu-item2">Login</a>
+      <a class="cabecalho-menu-destaque">JOIN US
+      <img class="cabecalho-icon" src="Imagens/icons8-arrow-48.png" alt="Icon">
+      </a>
+    </nav>
+  </header>  
 
-  <p class="fonte2">We know how large objects will act, <br> 
-  but things on a small scale</p>
-
-  <div>
-    <h5 class="bottom1">Get Quote Now
-    <h5 class="bottom2">Learn More</h5>
-  </div>
-  
-  <div >
-    <img src="Imagens/imagem.png" alt="img" class="img">
-  </div>
-  
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h5 class="conteudo-principal-pequeno">Join Us</h5>
+        <h1 class="conteudo-principal-escrito-titulo">Highly <br> Distinguished <br> Curses</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">We know how large 
+        objects will act, <br> but things on a small scale</h2>
+        <button class="conteudo-principal-escrito-botao1">Get Quote Now
+        </button>
+        <button class="conteudo-principal-escrito-botao2">Learn More</button>
+      </div>
+      <img class="conteudo-principal-imagem" src="Imagens/imagem.png" alt="Imagem">
+    </section>
+  </main>
 </body>
 </html>
 
-
-
-
-CSS
-@charset "UTF-8";
+/////////////////////////////////////////////////////
 
 *{
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body{
-  background-color:#252B42;
+  font-size: 100%;
+  background:#252B42;
 }
 
-h2{
+.cabecalho{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-around;
+  padding: 30px;
   color: white;
-  float: left; 
-  margin-left: 180px;
 }
 
-.JoinUs{
+.cabecalho-fonte{
+  font-size: 30px;
+}
+  
+.cabecalho-menu{
+  display: flex;
+  gap: 34px;
+}
+
+.cabecalho-menu-item{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cabecalho-menu-item:hover{
   color: #0583F2;
-  float:left;
-  margin-left: -950px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 60px;
 }
 
-.aumentar-fonte{
-  font-size: 45px;
-  color: white;
-  margin-top: 120px; 
-  float: left;
-  margin-left: -950px;
+.cabecalho-menu-item2{
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 100px;
 }
 
-.fonte2{
-  font-size: 20px;
-  color: #DCDCDC;
-  margin-top: 320px; 
-  float: left;
-  margin-left: -950px;
+.cabecalho-menu-item2:hover{
+  color: #0583F2;
 }
 
-nav{
-  color: white;
-  text-align: left;
-  margin-left: 400px;
-  padding: 5px;
-}
-
-nav a {
-  color: white;
-  text-decoration-line: none;
-  padding: 12px 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a:hover {
-  background-color: black;
-  border-radius: 100px;
-}
-
-.destaques{
-  text-align: center;
-  float: left;
-  margin-left: 990px;
-  margin-top: -60px;
-  padding: 5px;
-  padding-left: 20px;
-  
-  color: white;
-  text-decoration-line: none;
-  padding: 13px 20px;
-  
-  padding-left: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  
+.cabecalho-menu-destaque{
+  font-weight: 400;
+  font-size: 16px;
   background-color: #23A6F0;
   border-radius: 5px;
-}
-.destaques:hover {
-  background-color:black;
-}
-
-.bottom1{
-  text-align: center;
-  float: left;
-  margin-left: -950px;
-  margin-top: 410px;
-  padding: 10px;
-  
-  color: white;
-  text-decoration-line: none;
-  padding: 15px 30px;
- 
-  font-family: Arial, Helvetica, sans-serif;
-  
-  background-color: #23A6F0;
-  border-radius: 5px;
+  padding: 10px 10px;
+  margin-top: -10px;
 }
 
-.bottom1:hover{
+.cabecalho-menu-destaque:hover{
   background-color: #134775;
 }
-.bottom2{
-  text-align: center;
-  float: left;
-  margin-left: -780px;
-  margin-top: 410px;
-  padding: 10px;
-  
-  color: #0583F2;
-  text-decoration-line: none;
+.cabecalho-icon{
+  height: 17px;
+}
+
+.conteudo{
+  margin-bottom: 30px;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-pequeno{
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color:  #0583F2;
+}
+.conteudo-principal-escrito-titulo{
+  font-weight: 400;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  font-weight: 400;
+  font-size: 22px;
+  color: #DCDCDC;
+  margin-bottom: 50px;
+}
+.conteudo-principal-imagem{
+  height: 450px;
+  margin-top: 40px;
+
+}
+.conteudo-principal-escrito-botao1{
+  background-color: #23A6F0;
   padding: 15px 30px;
- 
-  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400px;
+  font-size: 15px;
+  color: white;
+}
+
+.conteudo-principal-escrito-botao1:hover{
+  background-color: #134775;
+}
+
+.conteudo-principal-escrito-botao2{
+  background-color: #23A6F0;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400px;
+  font-size: 15px;
+  margin-left: 10px;
   
+  color:#0583F2;
   background-color: #252B42;
-  border-color: #0583F2;
-  border-style: solid;
-  
   border-top: 1px solid #0583F2;
   border-left: 1px solid #0583F2;
   border-right: 1px solid #0583F2;
   border-bottom: 1px solid #0583F2; 
-  
-  border-radius: 5px;
-}
-.bottom2:hover{
-  background-color: #134775;
-}
-.gif{
-  margin-left: 5px;
-  margin-top: 2px;
-  width: 15px;
 }
 
-img{
-  left: left;
-  margin-left: 590px;
-  width: 400px;
-  margin-top: 60px;
+.conteudo-principal-escrito-botao2:hover{
+  background-color: #134775;
 }
