@@ -151,11 +151,20 @@ button{
   background-color: #A45A49;
 }
 
-.conteudo-secundario-receitas{
+.conteudo-secundario{
   display: flex;
   flex-direction: column;
+}
 
+.conteudo-secundario-receitas{
   max-width: 1120px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+
   padding: 3rem 2rem;
   margin: auto;
 }
