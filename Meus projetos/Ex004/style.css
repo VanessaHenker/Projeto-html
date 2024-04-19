@@ -152,13 +152,11 @@ button{
 }
 
 .conteudo-secundario{
-  display: flex;
-  flex-direction: column;
+  gap:  10px 30px;
 }
-
 .conteudo-secundario-receitas{
   max-width: 1120px;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -173,6 +171,7 @@ button{
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  
 }
 .conteudo-secundario-destaque{
   color: #A45A49;
@@ -196,7 +195,8 @@ button{
 }
 
 .conteudo-card-container{
-  padding: 1rem 10rem;
+  padding: 1rem 14rem;
+  gap: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -205,7 +205,7 @@ button{
 
 .receitas-card{
   background-color: #241A1C;
-  padding: 2rem;
+  padding: 2rem 2rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -224,6 +224,7 @@ button{
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  
 }
 
 .receita-titulo{
