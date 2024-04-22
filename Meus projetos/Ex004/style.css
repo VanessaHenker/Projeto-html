@@ -29,20 +29,38 @@ ul{
 .cabecalho-principal{
   max-width: 1120px;
   margin: auto;
-  justify-content: space-between;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 
-.cabelhaco-principal-logo{
-  font-family: Inter;
-  font-family: 2rem;
+.cabecalho-principal-logo{
+  font-family: Teko;
+  font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
+
+  padding: 1.5rem;
 }
 
-.cabelhaco-principal-menu{
+.cabecalho-principal-menu{
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
   color: #fff2e780;
+}
+.cabecalho-principal-menu2{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding-left: 4rem; 
+  color: #fff2e780;
+}
+
+.cabecalho-principal-github{
+  color: #fff2e7;
+  font-weight: 600;
 }
