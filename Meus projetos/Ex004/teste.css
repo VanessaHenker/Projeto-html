@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1F1517;
+  color: #ffff;
+}
+
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.cabelhaco-principal{
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabelhaco-principal-logo{
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cabelhaco-principal-menu{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #fff2e780;
+}
+.cabelhaco-principal-github{
+  color: #fff2e7;
+  font-weight: 600;
+
+}
+
+.conteudo-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo{
+  background-color: #181012;
+}
+.conteudo-principal{
+  background-color: #181012;
+
+  max-width: 1120px;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+
+  padding: 0rem 2rem;
+  margin: auto;
+
+  overflow: clip;
+}
+
+.conteudo-principal-hero{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conteudo-principal-imagem-container{
+  max-width: 70%;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: -0.90rem;
+  
+}
+
+.conteudo-principal-imagem > figure > img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.conteudo-principal-escrito-destaque{
+  font-family: Epilogue;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.marrom{
+  color: #A45A49;
+}
+
+.amarelo{
+  color: #E7A80E;
+}
+
+
+hr{
+  border-color: #A45A49;
+}
+.conteudo-principal-escrito{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.conteudo-principal-subtitulo{
+  color: #C7BAB3;
+  font-family:  Epilogue;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.botao-container{
+  width: 100%;
+  max-width: 1120px;
+  padding: -0rem 2.5rem;
+  margin: auto;
+  transform: translate(0, '-50%');
+ 
+
+}
+
+button{
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+ 
+  background-color: #A45A49;
+}
+
+
+.conteudo-secundario-receitas{
+  max-width: 1120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+
+  padding: 3rem 2rem;
+  margin: auto;
+}
+
+.conteudo-secundario-receitas-cabecalho{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+}
+.conteudo-secundario-destaque{
+  color: #A45A49;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+.conteudo-secundario-titulo{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.conteudo-secundario-subtitulo{
+  color: #C7BAB3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.conteudo-card-container{
+  padding: 1rem 14rem;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.receitas-card{
+  background-color: #241A1C;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex-basis: 29rem;
+}
+
+.receitas-card-cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  
+}
+.receitas-card-cabecalho-detalhes{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+}
+
+.receita-titulo{
+  color:#fff2e7;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.receita-avaliacao{
+  color: #756A67;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+}
+.receita-descricao{
+  color: #C7BAB3;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.receita-autor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.receita-autor > img{
+  border-radius: 20rem;
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.receita-autor-nome{
+  color: #C7BAB3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+
+.conteudo-secundario-final{
+  font-family: Inter;
+  display: flex;
+  color: #C7BAB3;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px 10px;
+  margin-left: -50px;
+}
+footer{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem 1rem;
+  background-color: #23181A;
+
+  margin-bottom: 2px;
+}
+.footer-copy{
+  color: #FFF2E7;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer-autor{
+  color: rgba(255, 242, 231,0.50);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
