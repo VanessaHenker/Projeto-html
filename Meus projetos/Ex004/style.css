@@ -213,16 +213,15 @@ button{
   margin: auto;
 
 }
-
-
 .receitas-card{
   background-color: #241A1C;
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   gap: 1.5rem;
-  flex-basis: 29rem;
+  flex-basis: 50rem;
 
 
 }
@@ -252,6 +251,7 @@ button{
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
+  padding-left: 20px;
 }
 
 .receita-descricao{
@@ -259,6 +259,7 @@ button{
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
+  
 }
 
 .receita-autor{
@@ -308,4 +309,8 @@ footer{
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
+}
+.footer-icon{
+  width: 20px;
+  margin-bottom: -5px;
 }
