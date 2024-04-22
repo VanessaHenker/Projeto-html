@@ -204,6 +204,17 @@ button{
   flex: wrap;
 }
 
+.conteudo-terciario{
+  max-width: 1600px;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 1rem 3rem;
+  margin: auto;
+
+}
+
+
 .receitas-card{
   background-color: #241A1C;
   padding: 1rem 1rem;
@@ -212,8 +223,9 @@ button{
   flex-direction: column;
   gap: 1.5rem;
   flex-basis: 29rem;
-}
 
+
+}
 .receitas-card-cabecalho{
   display: flex;
   flex-direction: row;
@@ -260,6 +272,17 @@ button{
   border-radius: 20rem;
   width: 2rem;
   height: 2rem;
+}
+
+.conteudo-secundario-final{
+  font-family: Inter;
+  display: flex;
+  color: #C7BAB3;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px 10px;
+  margin-left: -50px;
 }
 
 footer{
