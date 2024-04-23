@@ -161,8 +161,6 @@ button{
   max-width: 1120px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   gap: 9rem;
 
   padding: 3rem 2rem;
@@ -206,15 +204,13 @@ button{
 
 .conteudo-terciario{
   max-width: 1600px;
-  align-content: center;
-  justify-content: space-around;
-  flex-direction: row;
   padding: 1rem 3rem;
   margin: auto;
-
 }
+
 .receitas-card{
   background-color: #241A1C;
+ 
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   display: flex;
@@ -223,14 +219,13 @@ button{
   gap: 1.5rem;
   flex-basis: 50rem;
 
-
 }
+
 .receitas-card-cabecalho{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
-  
 }
 
 .receitas-card-cabecalho-detalhes{
@@ -259,7 +254,6 @@ button{
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  
 }
 
 .receita-autor{
@@ -277,13 +271,13 @@ button{
 
 .conteudo-secundario-final{
   font-family: Inter;
+  font-size: 20px;
   display: flex;
   color: #C7BAB3;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
   padding: 20px 10px;
-  margin-left: -50px;
 }
 
 footer{
@@ -307,7 +301,7 @@ footer{
 .footer-autor{
   color: rgba(255, 242, 231,0.50);
   font-family: Inter;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .footer-icon{
