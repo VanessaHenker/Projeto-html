@@ -19,9 +19,8 @@ html{
 }
 
 a{
-  font-style: none;
-  color:white ;
   text-decoration: none;
+  color: white;
 }
 
 ul{
@@ -35,10 +34,10 @@ ul{
 .amarelo{
   color: #E7A80E;
 }
-
 .cinza{
   color: #fff2e780;
 }
+
 .cabecalho-principal{
   max-width: 1120px;
   margin: auto;
