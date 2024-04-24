@@ -46,7 +46,7 @@
 }
 
 .conteudo-terciario{
-  max-width: 1600px;
+  max-width: 1120px;
   padding: 1rem 3rem;
   margin: auto;
 }
@@ -56,7 +56,7 @@
  
   padding: 1rem 1rem;
   border-radius: 0.5rem;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-around;
   gap: 1.5rem;
