@@ -6,19 +6,31 @@
 */
 
 body{
-  background-color: aquamarine;
+  background-color:paleturquoise;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-  color: chocolate;
+  color:rgb(14, 198, 198);
 }
 
 h1#principal{
-  color: brown;
+  color:rgb(14, 198, 198);
   text-align: center;
+  background-color: skyblue;
 }
 
 h2{
-  color: blue;
+ color:dimgrey;
+}
+
+.basico{
+  color:coral
+}
+.intermeadrio{
+  color:rgb(66, 149, 66)
+}
+
+.avancado{
+  color:darkorange
 }
