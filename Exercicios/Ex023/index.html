@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Links</title>
   <style>
+    /*  Seletores Personalizados
+      #   = id
+      .   = class
+      :   = pseudo-class
+      ::  = pseud-element
+      >   = children
+    */
     body{
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -21,6 +28,15 @@
     }
     a:active{
       color: yellow;
+    }
+    a::before{
+      content: '☽';
+    }
+    a::after{
+      content: '☾';
+      text-decoration: none;
+      font-weight: normal;
+      color: darkgray;
     }
   </style>
 
