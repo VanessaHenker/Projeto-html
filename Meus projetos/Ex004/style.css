@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1F1517;
+  color: #ffff;
+}
+
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+.marrom{
+  color: #A45A49;
+}
+
+.amarelo{
+  color: #E7A80E;
+}
+.cinza{
+  color: #fff2e780;
+}
