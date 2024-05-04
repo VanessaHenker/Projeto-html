@@ -37,3 +37,34 @@ ul{
 .cinza{
   color: #fff2e780;
 }
+
+.cabecalho-principal{
+
+  padding: 1.5rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+ 
+}
+
+.cabecalho-principal-logo{
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+ 
+  
+ 
+}
+
+.cabecalho-principal-menu{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding-left: 1rem;
+  color: #fff2e780;
+}
