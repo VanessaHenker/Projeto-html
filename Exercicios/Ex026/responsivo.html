@@ -11,6 +11,15 @@
     main{
       background-color: white;
       padding: 20px;
+      border-radius: 10px;
+
+      min-width: 280px;
+      max-width: 1120px;
+      margin: auto;
+    }
+
+    img{
+      width: 100%;
     }
   </style>
 </head>
@@ -20,7 +29,10 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reiciendis velit voluptatibus incidunt, nihil iste itaque deleniti aut perferendis eos nemo. Debitis eveniet ipsa fugiat. Iste nostrum sapiente consectetur fuga.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi ex sed quaerat doloribus soluta, vitae, explicabo suscipit adipisci nemo nesciunt nostrum omnis earum quidem eaque facere veritatis dolore velit.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptate quasi porro corrupti suscipit tempora quisquam corporis officia sint hic laboriosam commodi non, debitis nulla vel iure iste libero ratione?</p>
-      <img src="irina-blok.jpg">
+      <picture>
+        <source media="(max-width:600px)" srcset="irina-blok-pq.jpg">
+        <img src="irina-blok.jpg">
+      </picture>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reiciendis velit voluptatibus incidunt, nihil iste itaque deleniti aut perferendis eos nemo. Debitis eveniet ipsa fugiat. Iste nostrum sapiente consectetur fuga.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi ex sed quaerat doloribus soluta, vitae, explicabo suscipit adipisci nemo nesciunt nostrum omnis earum quidem eaque facere veritatis dolore velit.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptate quasi porro corrupti suscipit tempora quisquam corporis officia sint hic laboriosam commodi non, debitis nulla vel iure iste libero ratione?</p>
