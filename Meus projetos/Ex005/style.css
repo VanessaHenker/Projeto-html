@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1F1517;
+  color: #ffff;
+}
+
+
+@media (max-width: 768px) {
+  /* Alterações de estilo para telas menores */
+  a {
+      font-size: 12px; /* Redução do tamanho da fonte para telas menores */
+  }
+}
+
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+.marrom{
+  color: #A45A49;
+}
+
+.amarelo{
+  color: #E7A80E;
+}
+.cinza{
+  color: #fff2e780;
+}
+
+.cabecalho-pricipal-li:hover{
+  text-decoration:underline ;
+}
+.cabecalho-principal{
+  min-width: 300px;
+  max-width: 1120px;
+  margin: auto;
+  padding: 2rem 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+
+}
+
+.cabecalho-principal-logo{
+  font-family: Teko;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cabecalho-principal-menu{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 14px;
+  color: #fff2e780;
+
+}
+
+.cabecalho-principal-menu2{
+
+}
+
+.cabecalho-principal-github{
+  color: #fff2e7;
+  font-weight: 600;
+}
