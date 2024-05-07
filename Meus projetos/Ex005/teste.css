@@ -214,7 +214,8 @@ button{
 
 .conteudo-card-container{
   max-width: 1070px;
-  gap: 20px;
+  padding: 0.5rem ;
+  gap: 15px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -232,7 +233,7 @@ button{
  
   padding: 1rem 1rem;
   border-radius: 0.5rem;
-  
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 1.5rem;
