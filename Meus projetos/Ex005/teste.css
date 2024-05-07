@@ -290,8 +290,16 @@ button{
 }
 
 .conteudo-secundario-final{
-
+  font-family: Inter;
+  font-size: 20px;
+  display: flex;
+  color: #C7BAB3;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px 10px;
 }
+
 
 @media (max-width: 750px) {
   /* Alterações de estilo para telas menores */
