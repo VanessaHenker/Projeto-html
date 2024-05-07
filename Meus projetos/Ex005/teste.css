@@ -262,4 +262,15 @@ button{
   background-color: #A45A49;
   }
   
+  .conteudo-secundario-destaque{
+    font-size: 10px;
+  }
+  .conteudo-secundario-titulo{
+    font-size: 20px;
+ 
+  }
+  .conteudo-secundario-subtitulo{
+   font-size: 1rem;
+  }
+  
 }
