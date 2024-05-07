@@ -93,10 +93,11 @@ ul{
 }
 .conteudo{
   background-color: #181012;
-  }
+}
+
 .conteudo-principal{
   background-color: #181012;
-  
+  min-width: 420px;
   max-width: 1120px;
   height: 60vh;
   display: flex;
@@ -118,7 +119,6 @@ ul{
 }
 
 .conteudo-principal-escrito-destaque{
-  
   font-family: Epilogue;
   font-size: 1rem;
   font-weight: 500;
@@ -173,7 +173,8 @@ button{
   background-color: #A45A49;
 }
 
-@media (max-width: 780px) {
+
+@media (max-width: 750px) {
   /* Alterações de estilo para telas menores */
   
   span{
@@ -184,30 +185,42 @@ button{
   }
 
   .conteudo-principal-escrito{
-    font-size: 20px;
+    font-size: 15px;
   }
   .conteudo-principal-subtitulo{
     font-size: 10px;
   }
 
   .conteudo-principal-imagem-container{
-    max-width: 150%;
+    max-width: 60%;
     column-count: 4;
     column-gap: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
   }
   .conteudo-principal-imagem-container > figure > img{
     width: 100%;
     border-radius: 0.5rem;
+  }
+  .conteudo-principal{
+    
+    height: 35vh;
+  
   }
   .cabecalho-principal-menu2{
     gap: 0rem;
     padding-left: 0rem;
   
   }
-
   .conteudo-principal-escrito-destaque{
     font-size: 0.5rem;
-
   }
+
+  button{
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  width: 30px;
+  height: 30px;
+  background-color: #A45A49;
+  }
+  
 }
