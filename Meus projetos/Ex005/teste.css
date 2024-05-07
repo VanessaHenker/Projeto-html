@@ -173,6 +173,44 @@ button{
   background-color: #A45A49;
 }
 
+.conteudo-secundario-receitas{
+  max-width: 1120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+
+  padding: 3rem 2rem;
+  margin: auto;
+}
+
+.conteudo-secundario-receitas-cabecalho{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.conteudo-secundario-destaque{
+  color: #A45A49;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+
+.conteudo-secundario-titulo{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.conteudo-secundario-subtitulo{
+  color: #C7BAB3;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
 
 @media (max-width: 750px) {
   /* Alterações de estilo para telas menores */
@@ -197,24 +235,25 @@ button{
     column-gap: 0.5rem;
     margin: 0.5rem;
   }
+  
   .conteudo-principal-imagem-container > figure > img{
     width: 100%;
     border-radius: 0.5rem;
   }
+
   .conteudo-principal{
-    
     height: 35vh;
-  
   }
+
   .cabecalho-principal-menu2{
     gap: 0rem;
     padding-left: 0rem;
-  
   }
+
   .conteudo-principal-escrito-destaque{
     font-size: 0.5rem;
   }
-
+  
   button{
   padding: 0.2rem;
   border-radius: 0.5rem;
