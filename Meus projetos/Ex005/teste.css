@@ -212,6 +212,86 @@ button{
   font-weight: 400;
 }
 
+.conteudo-card-container{
+  max-width: 1070px;
+  gap: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
+ 
+}
+
+.conteudo-terciario{
+  padding: 1rem 3rem;
+  margin: auto;
+ }
+
+.receitas-card{
+  background-color: #241A1C;
+ 
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1.5rem;
+  flex-basis: 50rem;
+
+}
+
+.receitas-card-cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.receitas-card-cabecalho-detalhes{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.receita-titulo{
+  color:#fff2e7;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.receita-avaliacao{
+  color: #756A67;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.receita-descricao{
+  color: #C7BAB3;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.receita-autor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.receita-autor > img{
+  border-radius: 20rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.conteudo-secundario-final{
+
+}
+
 @media (max-width: 750px) {
   /* Alterações de estilo para telas menores */
   
@@ -236,11 +316,7 @@ button{
     margin: 0.5rem;
   }
   
-  .conteudo-principal-imagem-container > figure > img{
-    width: 100%;
-    border-radius: 0.5rem;
-  }
-
+ 
   .conteudo-principal{
     height: 35vh;
   }
@@ -272,5 +348,82 @@ button{
   .conteudo-secundario-subtitulo{
    font-size: 1rem;
   }
+  .conteudo-card-container{
+    padding: 0.5rem 10rem;
+    gap: 10px;
+  }
+  .conteudo-terciario{
+    padding: 1rem 2rem;
+    
+  }
   
+  .receitas-card{
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.5rem;
+    flex-basis: 10rem;
+  
+  }
+  
+  .receitas-card-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .receitas-card-cabecalho-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .receita-titulo{
+    color:#fff2e7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .receita-avaliacao{
+    color: #756A67;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+  
+  .receita-descricao{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .receita-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .receita-autor > img{
+    border-radius: 20rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .conteudo-secundario-final{
+    font-family: Inter;
+    font-size: 20px;
+    display: flex;
+    color: #C7BAB3;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px 10px;
+  }
 }
