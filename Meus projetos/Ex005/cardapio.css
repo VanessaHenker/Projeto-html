@@ -87,9 +87,13 @@ hr{
   color: white;
   font-size: 12px;
   
+  margin: auto;
   display: flex;
   margin-top: 10rem;
-  margin-left: -25rem;
+  margin-left: -33rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   gap: 10rem;
 }
@@ -101,3 +105,73 @@ hr{
   max-width: 900px;
 }
 
+button:hover{
+  border: none;
+  padding: 0.5rem;
+  width: 40px;
+  height: 50px;
+  background-color: #A45A49;
+}
+
+@media (max-width: 750px){
+  .conteudo-principal{
+    height: 30vh;
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .cabecalho-principal-hero{
+    gap: 1rem;
+  }
+
+  .conteudo-principal-escrito-destaque{
+    font-size: 10px;
+  }
+
+  .conteudo-principal-escrito{
+    font-size: 12px;
+  }
+  
+  .conteudo-principal-subtitulo{
+    font-size: 8px;
+  }
+  
+  .conteudo-principal-imagem{
+    column-gap: 0rem 0rem;
+    margin: 5rem;
+    padding: 35px;
+    margin-left: -2rem;
+  }
+
+  .conteudo-principal-imagem-container > figure > img{
+    justify-content: space-evenly;
+    align-items:start;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 0px 5px;
+    width: 70px;
+    height: 60px;
+  }
+
+  .conteudo-principal-imagem-border:hover{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 0px 0px;
+    width: 65px;
+    height: 55px;
+  
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  
+  .conteudo-principal-nomes{
+    font-size: 6px;
+    display: flex;
+    margin: auto;
+    margin-left: -13rem;
+    margin-top: 4.5rem;
+    gap: 2rem;
+  }
+}

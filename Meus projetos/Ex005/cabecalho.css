@@ -200,11 +200,9 @@ button{
 }
     
   button{
-    
-      padding: 0.2rem;
-      border-radius: 0.5rem;
-      width: 30px;
-      height: 30px;
-      
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    width: 30px;
+    height: 30px;
   }
 }
