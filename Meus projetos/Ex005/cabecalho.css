@@ -174,10 +174,20 @@ ul{
     font-size: 0.5rem;
   }
   
+  .botao-cantainer{
+    width: 100%;
+    max-width: 950px;
+    padding: 0rem 2.5rem;
+    margin: auto;
+    transform: translate(0, '-50%');
+}
+    
   button{
-  padding: 0.2rem;
-  border-radius: 0.5rem;
-  width: 30px;
-  height: 30px;
+    
+      padding: 0.2rem;
+      border-radius: 0.5rem;
+      width: 30px;
+      height: 30px;
+      
   }
 }
