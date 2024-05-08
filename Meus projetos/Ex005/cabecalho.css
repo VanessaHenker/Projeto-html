@@ -81,6 +81,23 @@ ul{
 
 }
 
+.botao-cantainer{
+  width: 100%;
+  max-width: 1120px;
+  padding: 0rem 2.5rem;
+  margin: auto;
+  transform: translate(0, '-50%');
+}
+
+button{
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  
+  background-color: #A45A49;
+}
+
+
 .cabecalho-principal-github{
   color: #fff2e7;
   font-weight: 600;

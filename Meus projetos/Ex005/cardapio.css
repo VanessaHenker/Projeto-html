@@ -11,11 +11,10 @@
 .conteudo-principal{
   background-color: #181012;
   min-width: 420px;
-  max-width: 950px;
   height: 60vh;
   justify-content: center;
   align-items: center;
-  
+  display: flex;
   padding: 1rem 1rem;
   margin: auto;
 
@@ -54,10 +53,12 @@ hr{
 
 .conteudo-principal-imagem{
   display: flex;
-  column-gap: 1rem 1rem;
-  margin: -1rem;
-  padding: 1rem;
-}
+  max-width: 40%;
+  column-count: 4;
+  column-gap: 0.5rem;
+  margin: 1rem;
+  
+  }
 
 .conteudo-principal-imagem-container > figure > img{
   width: 100%;
@@ -84,32 +85,15 @@ hr{
   font-family: Montserrat;
   color: white;
   font-size: 12px;
-  max-width: 600;
   
   display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content:center;
+  margin-top: 10rem;
+  margin-left: -30rem;
+  justify-content: space-between;
   gap: 10rem;
-  margin-left: -20rem;
   
 }
 .conteudo-principal-individual:hover{
   color: #fff2e780;
 }
 
-.botao-cantainer{
-  width: 100%;
-  max-width: 950px;
-  padding: 0rem 2.5rem;
-  margin: auto;
-  transform: translate(0, '-50%');
-}
-
-button{
-  border: none;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  
-  background-color: #A45A49;
-}
