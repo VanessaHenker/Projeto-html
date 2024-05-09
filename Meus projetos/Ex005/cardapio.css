@@ -256,48 +256,8 @@ button:hover{
 
 }
 
-
-.conteudo-secundario-receitas{
-  max-width: 1120px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5rem;
-
-  padding: 1rem 1rem;
-  margin: auto;
-}
-
-.conteudo-secundario-receitas-cabecalho{
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.conteudo-secundario-destaque{
-  color: #A45A49;
-  font-family: Montserrat;
-  text-transform: uppercase;
-}
-
-.conteudo-secundario-titulo{
-  font-family: Montserrat;
-  font-size: 32px;
-  font-weight: 700;
-  color: #fff2e7;
-}
-
-.conteudo-secundario-subtitulo{
-  color: #C7BAB3;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-}
-
 .conteudo-card-container{
-  padding: 0rem 7rem;
+  padding: 0rem 0rem;
   gap: 1rem;
   display: flex;
   flex-direction: row;
@@ -312,21 +272,19 @@ button:hover{
 
 .receitas-card{
   background-color: #241A1C;
- 
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  gap: 1.5rem;
-  flex-basis: 50rem;
-  
+  justify-content: center;
+  gap: 1rem;
+  flex-basis: 0rem;
 }
 
 .receitas-card-cabecalho{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items:normal ;
   gap: 1rem 1rem;
   
@@ -338,27 +296,6 @@ button:hover{
   gap: 1rem;
   
 }
-
-.conteudo-principal-escrito{
-  font-family: Montserrat;
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.receita-titulo{
-  color:#fff2e7;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-}
-.receita-descricao{
-  color: #C7BAB3;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-}
-
 .receita-autor{
   display: flex;
   flex-direction:row ;
@@ -372,36 +309,7 @@ button:hover{
   height: 10rem;
 }
 
-.conteudo-final{
-  margin-top: 20px;
-}
-footer{
-  padding: 3rem;
+.receita-autor-nome{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem 1rem;
-  background-color: #23181A;
-  
-  margin-bottom: 2px;
-}
-.footer-copy{
-  color: #FFF2E7;
-  font-family: Inter;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  
-}
-
-.footer-autor{
-  color: rgba(255, 242, 231,0.50);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  
-}
-.footer-icon{
-  width: 20px;
-  margin-bottom: -5px;
+  justify-content: center;
 }
