@@ -103,6 +103,34 @@ button{
   font-weight: 600;
 }
 
+footer{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem 1rem;
+  background-color: #23181A;
+
+  margin-bottom: 2px;
+}
+.footer-copy{
+  color: #FFF2E7;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer-autor{
+  color: rgba(255, 242, 231,0.50);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-icon{
+  width: 20px;
+  margin-bottom: -5px;
+}
 @media (max-width: 750px) {
   /* Alterações de estilo para telas menores */
   span{
@@ -147,6 +175,24 @@ button{
   border-radius: 0.5rem;
   width: 30px;
   height: 30px;
+  }
+
+  footer{
+    padding: 1rem;
+    gap: 1rem 0.5rem;
+    margin-bottom: 1px;
+  }
+  .footer-copy{
+    font-size: 0.5rem;
+  }
+  
+  .footer-autor{
+    font-size: 10px;
+  }
+
+  .footer-icon{
+    width: 15px;
+    margin-bottom: -5px;
   }
 }
 
@@ -204,5 +250,23 @@ button{
     border-radius: 0.5rem;
     width: 30px;
     height: 30px;
+  }
+
+  footer{
+    padding: 1rem;
+    gap: 1rem 0.5rem;
+    margin-bottom: 1px;
+  }
+  .footer-copy{
+    font-size: 0.5rem;
+  }
+  
+  .footer-autor{
+    font-size: 10px;
+  }
+
+  .footer-icon{
+    width: 15px;
+    margin-bottom: -5px;
   }
 }
