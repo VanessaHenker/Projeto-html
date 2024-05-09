@@ -65,8 +65,7 @@ hr{
   width: 100%;
   border-radius: 2rem;
   padding: 10px 10px;
-  width: 200px;
-  height: 140px;
+ 
 }
 
 .conteudo-principal-imagem-border:hover{
@@ -257,11 +256,9 @@ button:hover{
 }
 
 .conteudo-card-container{
-  padding: 0rem 0rem;
   gap: 1rem;
   display: flex;
   flex-direction: row;
-  flex: wrap;
 }
 
 .conteudo-terciario{
@@ -306,7 +303,7 @@ button:hover{
 .receita-autor > img{
   border-radius: 1rem;
   width: 10rem;
-  height: 10rem;
+  height: 7rem;
 }
 
 .receita-autor-nome{
