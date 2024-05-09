@@ -133,7 +133,7 @@ button:hover{
   .conteudo-principal-imagem{
     margin: -1rem;
     padding: 10px 25px;
-    margin-left: -1rem;
+    margin-left: -2.5rem;
   }
 
   .conteudo-principal-imagem-container > figure > img{
@@ -157,14 +157,13 @@ button:hover{
   }
   
   .conteudo-principal-nomes{
-    font-size: 14px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
     margin-top: 0rem;
-    margin-left: -3rem;
+    margin-left: -5rem;
     margin-top: -1rem;
     gap: 4rem;
   }
@@ -173,7 +172,6 @@ button:hover{
     font-size: 10px;
   }
 }
-
 
 @media (max-width: 320px){
   .conteudo-principal{
@@ -240,3 +238,34 @@ button:hover{
     font-size: 10px;
   }
 }
+
+@media (max-width: 800px){
+  .conteudo-principal-nomes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 0rem;
+    margin-left: -2.5rem;
+    margin-top: -1rem;
+    padding: 0rem 10rem;
+  }
+
+}
+
+@media (max-width: 850px){
+  .conteudo-principal-nomes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0rem;
+    margin-left: -7.5rem;
+    margin-top: -1rem;
+    padding: 0rem 15rem;
+  
+  } 
+}
+
