@@ -1,4 +1,4 @@
-.conteudo-secundario-receitas{
+.conteudo-secundario{
   max-width: 1120px;
   display: flex;
   flex-direction: row;
@@ -9,18 +9,27 @@
   margin: auto;
 }
 
-.conteudo-secundario-receitas-cabecalho{
+.conteudo-secundario-cabecalho{
   display: flex;
   justify-items: center;
   flex-direction: column;
   gap: 0.5rem;
 }
 
+.conteudo-secundario-receitas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 10rem;
+
+}
 .conteudo-secundario-destaque{
   color: #A45A49;
   font-family: Montserrat;
   text-transform: uppercase;
 }
+
 
 .conteudo-secundario-titulo{
   font-family: Montserrat;
@@ -50,19 +59,22 @@
       font-size: 14px;
     }
 
-    .conteudo-card-container{
+    .conteudo-card-container-cardapio{ 
+      /*trocar */
       padding: 0.5rem ;
       gap: 1px;
     }
     
-    .receitas-card{
+    .receitas-card-cardapio{
+      /*trocar */
       border-radius: 0.5rem;
       gap: 0rem;
       flex-basis: 10rem;
     
     }
     
-    .receitas-card-cabecalho-detalhes{
+    .receitas-card-cabecalho-detalhes-cardapio{
+      /*trocar */
       gap: 0.5rem;
     }
     
@@ -77,6 +89,7 @@
     .receita-autor{
     gap: 0.5rem;
     }
+    
     .receita-autor-cardapio > img{
       border-radius: 0.5rem;
       width: 3rem;
@@ -109,11 +122,13 @@
   }
   
   .conteudo-secundario-subtitulo{
+    /*trocar */
     font-size: 1rem;
 
   }
   
   .conteudo-card-container{
+    /*trocar */
     gap: 0.5rem;
   }
 
