@@ -1,4 +1,4 @@
-.conteudo-secundario{
+.conteudo-secundario {
   max-width: 1120px;
   display: flex;
   flex-direction: row;
@@ -9,14 +9,14 @@
   margin: auto;
 }
 
-.conteudo-secundario-cabecalho{
+.conteudo-secundario-cabecalho {
   display: flex;
   justify-items: center;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.conteudo-secundario-receitas{
+.conteudo-secundario-receitas {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,21 +24,22 @@
   gap: 10rem;
 
 }
-.conteudo-secundario-destaque{
+
+.conteudo-secundario-destaque {
   color: #A45A49;
   font-family: Montserrat;
   text-transform: uppercase;
 }
 
 
-.conteudo-secundario-titulo{
+.conteudo-secundario-titulo {
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 700;
   color: #fff2e7;
 }
 
-.conteudo-secundario-subtitulo{
+.conteudo-secundario-subtitulo {
   color: #C7BAB3;
   font-family: Inter;
   font-size: 1.5rem;
@@ -46,7 +47,7 @@
   font-weight: 400;
 }
 
-.conteudo-card-container-cardapio{
+.conteudo-card-container-cardapio {
   gap: 1rem;
   display: flex;
   flex-direction: row;
@@ -54,150 +55,283 @@
 }
 
 
-.receita-autor-cardapio{
+.receita-autor-cardapio {
   display: flex;
-  flex-direction:row ;
+  flex-direction: row;
   align-items: center;
   gap: 0.5rem;
 }
-.receita-autor-cardapio > img{
+
+.receita-autor-cardapio>img {
   border-radius: 1rem;
   width: 10rem;
   height: 7rem;
 }
 
-@media (max-width: 750px) {
-    /* Alterações de estilo para telas menores */
-    .conteudo-secundario-destaque{
-      font-size: 14px;
-    }
-    
-    .conteudo-principal-escrito-destaque{
-      font-size: 6px;
-    }
-    .receita-titulo{
-      font-size: 6px;
-    }
-    
-    .receita-descricao{
-      font-size: 6px;
-    }
-    
-    .receita-autor-cardapio {
-      display: flex;
-      flex-direction:row ;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    .receita-autor-cardapio > img{
-      border-radius: 0.5rem;
-      width: 3.5rem;
-      height: 4rem;
-    }
-    
-    .receita-autor-nome-cardapio{
-      font-size: 8px;
-    }
-    footer{
-      padding: 1rem;
-      gap: 1rem 0.5rem;
-      margin-bottom: 1px;
-    }
-    .footer-copy{
-      font-size: 0.5rem;
-    }
-    
-    .footer-autor{
-      font-size: 10px;
-    }
-  
-    .footer-icon{
-      width: 15px;
-      margin-bottom: -5px;
-    }
-    
-    .conteudo-secundario-titulo{
-    font-size: 14px;
-  }
-  
-  .conteudo-secundario-subtitulo{
-    font-size: 1rem;
 
-  }
-  .conteudo-card-container-cardapio{ 
-    padding: 0rem 1rem;
-    gap: 0.5rem;
-  }
-  
-  .receitas-card-cardapio-cardapio{
-    border-radius: 0.5rem;
-    gap: 0rem;
-    flex-basis: 10rem;
-  
-  }
-  
-  .receitas-card-cabecalho-detalhes-cardapio{
-    gap: 0.5rem;
-  }
-  
-  .conteudo-secundario-receitas{
-    padding: 0.5rem 0.5rem;
+@media (max-width: 1280px) {
+  .conteudo-card-container-cardapio {
+    padding: 0rem 5rem;
+    gap: 1rem;
   }
 }
 
-@media (max-width: 320px) {
-  /* Alterações de estilo para telas menores */
-
-  .conteudo-secundario-subtitulo{
-    font-size: 0.6rem;
+@media (max-width: 890px) {
   
+  .conteudo-secundario-titulo {
+    font-size: 25px;
   }
-  .conteudo-card-container-cardapio{ 
+  
+  .conteudo-secundario-subtitulo {
+    font-size: 20px;
+  }
+
+  .conteudo-principal-escrito-destaque {
+    font-size: 14px;
+  }
+
+  .conteudo-card-container-cardapio {
+    padding: 0rem 2rem;
+    gap: 1rem;
+  }
+
+  .receita-titulo {
+    font-size: 14px;
+  }
+  
+  .receita-descricao {
+    font-size: 12px;
+  }
+
+  .receita-autor-cardapio>img {
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 7em;
+  }
+  .receita-autor-nome-cardapio {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 850px) {
+  
+  .conteudo-secundario-titulo {
+    font-size: 25px;
+  }
+
+  .conteudo-secundario-subtitulo {
+    font-size: 20px;
+  }
+
+  .conteudo-principal-escrito-destaque {
+    font-size: 10px;
+  }
+
+  .conteudo-card-container-cardapio {
+    padding: 0rem 2rem;
+    gap: 1rem;
+  }
+  
+  .receita-titulo {
+    font-size: 14px;
+  }
+
+  .receita-descricao {
+    font-size: 12px;
+  }
+
+  .receita-autor-cardapio>img {
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 5rem;
+  }
+  .receita-autor-nome-cardapio {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 770px) {
+
+  /* Alterações de estilo para telas menores */
+  .conteudo-card-container-cardapio {
     padding: 0rem 1rem;
     gap: 0.5rem;
   }
+}
+
+@media (max-width: 750px) {
+
+  /* Alterações de estilo para telas menores */
+  .conteudo-secundario-titulo {
+    font-size: 14px;
+  }
+
+  .conteudo-secundario-subtitulo {
+    font-size: 1rem;
+
+  }
   
-  .receitas-card-cardapio-cardapio{
+  .conteudo-secundario-receitas {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .conteudo-secundario-destaque {
+    font-size: 14px;
+  }
+
+  .conteudo-principal-escrito-destaque {
+    font-size: 6px;
+  }
+
+  .conteudo-card-container-cardapio {
+    padding: 0rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .receita-titulo {
+    font-size: 6px;
+  }
+
+  .receita-descricao {
+    font-size: 6px;
+  }
+
+  .receita-autor-cardapio>img {
+    border-radius: 0.5rem;
+    width: 3.5rem;
+    height: 4rem;
+  }
+
+  .receita-autor-nome-cardapio {
+    font-size: 8px;
+  }
+
+  .receitas-card-cardapio-cardapio {
     border-radius: 0.5rem;
     gap: 0rem;
     flex-basis: 10rem;
-  
+
   }
+
+  .receitas-card-cabecalho-detalhes-cardapio {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
   
-  .receitas-card-cabecalho-detalhes-cardapio{
+  /* Alterações de estilo para telas menores */
+ 
+  .conteudo-principal-escrito-destaque {
+    font-size: 7px;
+  }
+
+  .conteudo-card-container-cardapio {
+    padding: 0rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .receita-titulo {
+    font-size: 10px;
+  }
+
+  .receita-descricao {
+    font-size: 8px;
+  }
+
+  .receita-autor-cardapio>img {
+    border-radius: 0.5rem;
+    width: 3rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+
+  /* Alterações de estilo para telas menores */
+  .conteudo-principal-escrito-destaque {
+    font-size: 7px;
+  }
+
+  .conteudo-card-container-cardapio {
+    padding: 0rem 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .receita-titulo {
+    font-size: 8px;
+  }
+
+  .receita-descricao {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* Alterações de estilo para telas menores */
+  
+  .conteudo-card-container-cardapio {
+    padding: 0rem 0rem;
     gap: 0.5rem;
   }
   
-  .conteudo-secundario-receitas{
-    padding: 0.5rem 0rem;
+  .receita-descricao {
+    font-size: 7px;
   }
-  .conteudo-secundario-destaque{
+}
+@media (max-width: 320px) {
+  /* Alterações de estilo para telas menores */
+
+  .conteudo-secundario-titulo {
     font-size: 10px;
   }
   
-  .conteudo-principal-escrito-destaque{
+  .conteudo-secundario-subtitulo {
+    font-size: 0.6rem;
+  }
+
+  .conteudo-secundario-destaque {
+    font-size: 10px;
+  }
+
+  .conteudo-principal-escrito-destaque {
     font-size: 6px;
   }
-  .receita-titulo{
+
+  .conteudo-card-container-cardapio {
+    padding: 0rem 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .conteudo-secundario-receitas {
+    padding: 0.5rem 0rem;
+  }
+
+  .receitas-card-cardapio-cardapio {
+    border-radius: 0.5rem;
+    gap: 0rem;
+    flex-basis: 10rem;
+  }
+
+  .receitas-card-cabecalho-detalhes-cardapio {
+    gap: 0.5rem;
+  }
+
+  .receita-titulo {
     font-size: 6px;
   }
-  
-  .receita-descricao{
+
+  .receita-descricao {
     font-size: 6px;
   }
-  
-  .receita-autor-cardapio > img{
+
+  .receita-autor-cardapio>img {
     border-radius: 0.5rem;
     width: 2rem;
     height: 3rem;
   }
-  
-  .receita-autor-nome-cardapio{
+
+  .receita-autor-nome-cardapio {
     font-size: 7px;
   }
-
-  .conteudo-secundario-titulo{
-  font-size: 10px;
-}
-
 }
