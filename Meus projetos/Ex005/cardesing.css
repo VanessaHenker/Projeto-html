@@ -53,6 +53,12 @@
   flex: wrap;
 }
 
+.receita-autor-cardapio > img{
+  border-radius: 1rem;
+  width: 10rem;
+  height: 7rem;
+}
+
 @media (max-width: 750px) {
     /* Alterações de estilo para telas menores */
     .conteudo-secundario-destaque{
@@ -70,11 +76,13 @@
       font-size: 5px;
     }
     
-    .receita-autor{
-    gap: 0.5rem;
+    .receita-autor-cardapio {
+      display: flex;
+      flex-direction:row ;
+      align-items: center;
+      gap: 0.5rem;
     }
-    
-    .receita-autor > img{
+    .receita-autor-cardapio > img{
       border-radius: 0.5rem;
       width: 3rem;
       height: 3rem;
