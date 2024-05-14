@@ -76,7 +76,7 @@
       font-size: 6px;
     }
     .receita-titulo{
-      font-size: 7px;
+      font-size: 6px;
     }
     
     .receita-descricao{
@@ -91,7 +91,7 @@
     }
     .receita-autor-cardapio > img{
       border-radius: 0.5rem;
-      width: 4rem;
+      width: 3.5rem;
       height: 4rem;
     }
     
@@ -143,5 +143,61 @@
   .conteudo-secundario-receitas{
     padding: 0.5rem 0.5rem;
   }
+}
+
+@media (max-width: 320px) {
+  /* Alterações de estilo para telas menores */
+
+  .conteudo-secundario-subtitulo{
+    font-size: 0.6rem;
   
+  }
+  .conteudo-card-container-cardapio{ 
+    padding: 0rem 1rem;
+    gap: 0.5rem;
+  }
+  
+  .receitas-card-cardapio-cardapio{
+    border-radius: 0.5rem;
+    gap: 0rem;
+    flex-basis: 10rem;
+  
+  }
+  
+  .receitas-card-cabecalho-detalhes-cardapio{
+    gap: 0.5rem;
+  }
+  
+  .conteudo-secundario-receitas{
+    padding: 0.5rem 0rem;
+  }
+  .conteudo-secundario-destaque{
+    font-size: 10px;
+  }
+  
+  .conteudo-principal-escrito-destaque{
+    font-size: 6px;
+  }
+  .receita-titulo{
+    font-size: 6px;
+  }
+  
+  .receita-descricao{
+    font-size: 6px;
+  }
+  
+  .receita-autor-cardapio > img{
+    border-radius: 0.5rem;
+    width: 2rem;
+    height: 3rem;
+  }
+  
+  .receita-autor-nome-cardapio{
+    font-size: 7px;
+  }
+
+  .conteudo-secundario-titulo{
+  font-size: 10px;
+}
+
 }
