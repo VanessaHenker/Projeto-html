@@ -62,8 +62,9 @@
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  flex-basis: 0rem;
+  flex-basis: 40rem;
 }
+
 .receita-autor-cardapio {
   display: flex;
   flex-direction: row;
@@ -85,7 +86,7 @@
   }
 }
 
-@media (max-width: 890px) {
+@media (max-width: 1220px) {
   
   .conteudo-secundario-titulo {
     font-size: 25px;
@@ -189,7 +190,7 @@
   }
 
   .conteudo-principal-escrito-destaque {
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .conteudo-card-container-cardapio {
@@ -198,11 +199,11 @@
   }
 
   .receita-titulo {
-    font-size: 6px;
+    font-size: 12px;
   }
 
   .receita-descricao {
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .receita-autor-cardapio>img {
@@ -212,7 +213,7 @@
   }
 
   .receita-autor-nome-cardapio {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .receitas-card-cardapio-cardapio {
@@ -236,10 +237,16 @@
   }
 
   .conteudo-card-container-cardapio {
-    padding: 0rem 0.5rem;
+    padding: 0rem 0rem;
     gap: 0.5rem;
   }
 
+  .receitas-cardapio{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+  }
+  
   .receita-titulo {
     font-size: 10px;
   }
@@ -252,10 +259,6 @@
     border-radius: 0.5rem;
     width: 3rem;
     height: 4rem;
-  }
-
-  .receitas-cardapio{
-  flex-basis: 0rem;
   }
 }
 
@@ -271,6 +274,12 @@
     gap: 0.5rem;
   }
 
+  .receitas-cardapio{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+  }
+  
   .receita-titulo {
     font-size: 8px;
   }
@@ -286,6 +295,12 @@
   .conteudo-card-container-cardapio {
     padding: 0rem 0rem;
     gap: 0.55rem;
+  }
+  
+  .receitas-cardapio{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
   }
   
   .receita-descricao {
@@ -320,6 +335,12 @@
     padding: 0.5rem 0rem;
   }
 
+  .receitas-cardapio{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+  }
+  
   .receitas-card-cardapio-cardapio {
     border-radius: 0.5rem;
     gap: 0rem;
