@@ -13,20 +13,21 @@
 <body>
   <header>
     <nav class="cabecalho-principal">
-      <a href="index.html"><span class="cabecalho-principal-logo">Coffe Bliss</span>
+      <a href="index.html"><span class="cabecalho-principal-logo">Coffe Bliss</span></a>
+
       <ul class="cabecalho-principal-menu">
-        <a href="cardapio.html" ><li class="cabecalho-pricipal-li cinza">Cardápio</li></a>
+        <a href="cardapio.html"><li class="cabecalho-pricipal-li cinza">Cardápio</li></a>
         <a href="#"><li class="cabecalho-pricipal-li cinza">Novidades</li></a>
         <a href="#"><li class="cabecalho-pricipal-li cinza" class="cinza">Melhor avaliadas</li></a>
         <a href="#"><li class="cabecalho-pricipal-li cinza" class="cinza">Receitas</li></a>
-          
+
         <nav class="cabecalho-principal-menu2">
-          <a href="https://github.com/VanessaHenker" class="cabecalho-pricipal-li class="cabecalho-principal-github" target="external">GitHub</a>
+          <a href="https://github.com/VanessaHenker" class="cabecalho-pricipal-li" class="cabecalho-principal-github" target="external">GitHub</a>
         </nav>
       </ul>
     </nav>
   </header>
-  
+
   <main class="conteudo-main">
     <div class="conteudo">
       <section class="conteudo-principal">
@@ -34,21 +35,51 @@
           <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
           <h1 class="conteudo-principal-escrito">Encontre a receita perfeita!</h1>
           <hr>
-          <h2 class="conteudo-principal-subtitulo">Explore dezenas de variações de bebida favorita entre os <strong>devs</strong> ao redor do mundo!
+          <h2 class="conteudo-principal-subtitulo">Explore dezenas de variações de salgado favorito entre os
+            <strong>devs</strong> ao redor do mundo!
           </h2>
         </header>
-        
-        <div class="conteudo-principal-imagem">
-          <a href="bebidas.html" class="conteudo-principal-imagem-container"><figure><img class="conteudo-principal-imagem-border" src="Cardapio/expressoCapamini.webp" alt="Imagem"></figure></a>
-          <a href="salgados.html" class="conteudo-principal-imagem-container"> <figure><img class="conteudo-principal-imagem-border" src="Cardapio/sanduiche.jpg" alt="Imagem"></figure></a>
-          <a href="doces.html" class="conteudo-principal-imagem-container"> <figure><img class="conteudo-principal-imagem-border" src="Cardapio/fatia-de-bolo-e-cafe-de-nozes.jpg"     alt="Imagem"></figure></a>
-        </div>
-        
-        <div class="conteudo-principal-nomes">
-          <a href="bebidas.html"><p class="conteudo-principal-individual">Bebidas</p></a>
-          <a href="salgados.html"><p class="conteudo-principal-individual">Salgados</p></a>
-          <a href="doces.html"><p class="conteudo-principal-individual">Doces</p></a>
-        </div>
+
+        <section class="conteudo-terciario">
+          <div class="conteudo-card-container">
+            <div class="receitas-card">
+              <header class="receitas-card-cabecalho">
+                <div class="receita-autor">
+                  <a href="bebidas.html" class="receita-autor"><img src="Cardapio/expressoCapamini.webp" alt="iconPerfil"></a>
+                </div>
+              </header>
+
+              <div class="receitas-card-cabecalho-detalhes">
+                <a href="bebidas.html"><span class="receita-autor-nome">Bebidas</span></a>
+              </div>
+            </div>
+
+            <div class="receitas-card">
+              <header class="receitas-card-cabecalho">
+                <div class="receita-autor">
+                  <a href="salgados.html" class="receita-autor"> <img src="Cardapio/sanduiche.jpg" alt="iconPerfil"></a>
+                </div>
+              </header>
+
+              <div class="receitas-card-cabecalho-detalhes">
+                <a href="salgados.html"><span class="receita-autor-nome">Salgados</span></a>
+              </div>
+            </div>
+
+
+            <div class="receitas-card">
+              <header class="receitas-card-cabecalho">
+                <div class="receita-autor">
+                  <a href="doces.html" class="receita-autor"> <img src="Cardapio/fatia-de-bolo-e-cafe-de-nozes.jpg" alt="iconPerfil"></a>
+                </div>
+              </header>
+
+              <div class="receitas-card-cabecalho-detalhes">
+                <a href="doces.html"><span class="receita-autor-nome">Doces</span></a>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </div>
 
@@ -56,14 +87,15 @@
       <a href="cardapio.html"><button type="button"><img src="Imagens/chevrons-down.svg" alt="botao"></button>
     </section></a>
   
-    <section class="conteudo-secundario-receitas">
-      <div>
-        <header class="conteudo-secundario-receitas-cabecalho">
-          <h2 class="conteudo-secundario-titulo">Confira os nossos doces</h2>
-          <p class="conteudo-secundario-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
-        </header>
-      </div>
-    </section>
+
+  <section class="conteudo-secundario-receitas">
+    <div>
+      <header class="conteudo-secundario-receitas-cabecalho">
+        <h2 class="conteudo-secundario-titulo">Confira os nossos doces</h2>
+        <p class="conteudo-secundario-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+      </header>
+    </div>
+  </section>
     
     <section class="conteudo-secundario-receitas">
       <div>
@@ -72,32 +104,32 @@
     </section>
  
     <section class="conteudo-terciario">
-      <div class="conteudo-card-container">
+      <div class="conteudo-card-container-cardapio">
         <div class="receitas-card">
           <header class="receitas-card-cabecalho">
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque amarelo">em alta 🔥</span>
               <h3 class="receita-titulo">Fatia Chocolate</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeee.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadee.</p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-
-            <div class="receita-autor">
+            
+            <div class="receita-autor-cardapio">
               <img src="Cardapio/fatia-chocolate.jpeg" alt="iconPerfil">
             </div>
           </header>
         </div>
-      
+    
         <div class="receitas-card">
           <header class="receitas-card-cabecalho">
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
               <h3 class="receita-titulo">Fatia Ninho</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadee.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidade.</p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-           
-            <div class="receita-autor">
+            
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/fatia-ninho.webp" alt="iconPerfil">
             </div>
           </header>
@@ -109,15 +141,14 @@
               <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
               <h3 class="receita-titulo">Fatia RedVelt</h3>
               <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeee.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-
-            <div class="receita-autor">
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/fatia-redvelt.jpeg" alt="iconPerfil">
             </div>
           </header>
         </div>
-      </div>
+       </div> 
     </section>
     
     <section class="conteudo-secundario-receitas">
@@ -127,19 +158,18 @@
     </section>
         
     <section class="conteudo-terciario">
-      <div class="conteudo-card-container">
+      <div class="conteudo-card-container-cardapio">
         <div class="receitas-card">
           <header class="receitas-card-cabecalho">
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque amarelo">em alta 🔥</span>
               <h3 class="receita-titulo">Cheesecake Baunilha</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeee.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidade.</p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-              
-            <div class="receita-autor">
+              <div class="receita-autor-cardapio"">
               <img src="Cardapio/Cheesecake-de-baunilha.webp" alt="iconPerfil">
-            </div>
+              </div>
           </header>
         </div>
       
@@ -147,12 +177,12 @@
           <header class="receitas-card-cabecalho">
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
-              <h3 class="receita-titulo">heesecake Chocolate</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadee. </p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <h3 class="receita-titulo">Cheesecake Chocolate</h3>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidade. </p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-            
-            <div class="receita-autor">
+
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/cheescake-choc.jpg" alt="iconPerfil">
             </div>
           </header>
@@ -162,37 +192,36 @@
           <header class="receitas-card-cabecalho">
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
-              <h3 class="receita-titulo">Cheesecake Doce Leite</h3>
+              <h3 class="receita-titulo" style="font-size: 7px;">Cheesecake Doce <br> Leite</h3>
               <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidade.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
 
-            <div class="receita-autor">
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/cheescake-doce-leite.png" alt="iconPerfil">
             </div>
           </header>
-        </div>
       </div>
     </section>
     
     <section class="conteudo-secundario-receitas">
       <div>
         <h2><span class="conteudo-secundario-destaque marrom">Pudins</span></h2>
-      </div>
+       </div>
     </section>
       
     <section class="conteudo-terciario">
-      <div class="conteudo-card-container">
+      <div class="conteudo-card-container-cardapio">
         <div class="receitas-card">
           <header class="receitas-card-cabecalho">
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque amarelo">em alta 🔥</span>
               <h3 class="receita-titulo">Pudim Leite</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeee.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadee.</p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-
-            <div class="receita-autor">
+            
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/pudim-de-leite.jpg" alt="iconPerfil">
             </div>
           </header>
@@ -203,11 +232,11 @@
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
               <h3 class="receita-titulo">Pudim Café</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeee. </p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidade. </p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
-
-            <div class="receita-autor">
+          
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/pudim-cafe.webp" alt="iconPerfil">
             </div>
           </header>
@@ -218,11 +247,11 @@
             <div class="receitas-card-cabecalho-detalhes">
               <span class="conteudo-principal-escrito-destaque marrom">novidade</span>
               <h3 class="receita-titulo">Pudim Choc Branco</h3>
-              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeee.</p>
-              <span class="receita-autor-nomme">R$ 0,00</span>
+              <p class="receita-descricao">Uma bebida ideal para amantes de doce e cremosidadeeee.</p>
+              <span class="receita-autor-nome-cardapio">R$ 0,00</span>
             </div>
 
-            <div class="receita-autor">
+            <div class="receita-autor-cardapio"">
               <img src="Cardapio/pudim-de-chocolate-branco.jpg" alt="iconPerfil">
             </div>
           </header>
@@ -230,12 +259,13 @@
       </div>
     </section>
   </main>
-  
+
   <section class="conteudo-final">
     <footer>
       <p class="footer-copy">Copyright &lt;CODECOFFE /&gt; 2024</p>
       <p class="footer-autor">Feito com muito <img class="footer-icon" src="Imagens/icons8-heart-30.png" alt="coracaoIcon"> e café por Vanessa Silva</p>
     </footer>
   </section>
+  
 </body>
 </html>
