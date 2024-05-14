@@ -54,7 +54,16 @@
   flex: wrap;
 }
 
-
+.receitas-cardapio{
+  background-color: #241A1C;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  flex-basis: 0rem;
+}
 .receita-autor-cardapio {
   display: flex;
   flex-direction: row;
@@ -243,6 +252,10 @@
     border-radius: 0.5rem;
     width: 3rem;
     height: 4rem;
+  }
+
+  .receitas-cardapio{
+  flex-basis: 0rem;
   }
 }
 
