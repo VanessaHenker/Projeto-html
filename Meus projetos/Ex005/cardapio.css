@@ -129,8 +129,7 @@ button:hover{
   height: 50px;
 }
 
-
-@media (max-width: 750px){
+@media (max-width: 760px){
   .conteudo-principal{
     height: 35vh;
     gap: 0.5rem;
@@ -192,7 +191,6 @@ button:hover{
     width: 30px;
     height: 35px;
   }
-
 }
 
 @media (max-width: 400px){
