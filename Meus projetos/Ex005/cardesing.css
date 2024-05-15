@@ -291,8 +291,7 @@
 
 @media (max-width: 380px) {
   /* Alterações de estilo para telas menores */
-  
-  .conteudo-card-container-cardapio {
+    .conteudo-card-container-cardapio {
     padding: 0rem 0rem;
     gap: 0.55rem;
   }
@@ -307,7 +306,8 @@
     font-size: 7px;
   }
 }
-@media (max-width: 320px) {
+
+@media (max-width: 360px) {
   /* Alterações de estilo para telas menores */
 
   .conteudo-secundario-titulo {

@@ -60,6 +60,11 @@ hr{
 .conteudo-terciario{
   max-width: 1120px;
   padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
   margin: auto;
   }
 
@@ -70,6 +75,7 @@ hr{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
   flex-basis: 0rem;
 }
@@ -149,8 +155,7 @@ button:hover{
   
   .conteudo-terciario{
     padding: 0.5rem 0rem;
-    margin: auto;
-    }
+  }
   
   .receitas-card{
     padding: 0.5rem 0.5rem;
@@ -190,6 +195,12 @@ button:hover{
 
 }
 
+@media (max-width: 400px){
+  .conteudo-terciario{
+    padding: 0.5rem 0rem;
+    justify-content: flex-start;
+  }
+}
 @media (max-width: 320px){
   .conteudo-principal{
     height: 40vh;
