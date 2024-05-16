@@ -25,6 +25,7 @@ a{
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-content: space-around;
   padding: 2rem;
   margin: auto;
   border-radius: 1rem;
