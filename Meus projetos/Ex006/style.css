@@ -42,3 +42,21 @@ a{
   font-weight: 500;
   padding-bottom: 1.5rem;
 }
+
+.conteudo-princial-escrito-login{
+  color: rgb(64, 64, 133); 
+  padding-bottom: 0.5rem;
+}
+
+.conteudo-princial-escrito-digite{
+  color: 	#696969;
+
+  background-color: #fafbff;
+  border-color: #0583F2;
+  
+  
+  border-top: 1px solid #696969;
+  border-left: 1px solid #696969;
+  border-right: 1px solid #696969;;
+  border-bottom: 1px solid #696969;
+}
