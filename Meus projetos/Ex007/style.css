@@ -60,7 +60,14 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 30px;
+}
+
+.descricao-primaria{
   color: #ffffff;
+} 
+
+.descricao-secundaria{
+  color: #7f8c8d;
 }
 
 .conteudo-button{
@@ -106,6 +113,8 @@ body {
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  line-height: 35px;
+  text-align: center;
 }
 
 .item-midia-social a{
