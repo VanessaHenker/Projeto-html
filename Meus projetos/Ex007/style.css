@@ -86,6 +86,7 @@ body {
   color:#ffffff;
   cursor: pointer;
   width: 150px;
+  font-weight: bold;
   align-self: center;
   border: none;
   margin-top: 1rem;
@@ -98,7 +99,7 @@ body {
 }
 
 .button-primario:hover{
-  background-color: #ffffff;
+  background-color: #fff;
   color: #58af9b;
 }
 
@@ -137,6 +138,7 @@ body {
   height: 35px;
   line-height: 35px;
   text-align: center;
+  color: #95a5a6;
 }
 
 .item-midia-social a{
