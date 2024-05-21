@@ -35,6 +35,10 @@ body {
   background-color: #58af9b;
   width: 40%;
   height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  left: 0;
 }
 
 .conteudo-principal{
@@ -144,8 +148,8 @@ body {
 
 .conteudo-princial-form input{
   height: 45px;
+  width: 100%;
   border: none;
-  margin: 8px;
   background-color: #ecf0f1;
 }
 
