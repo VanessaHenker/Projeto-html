@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
         <h2 class="conteudo-titulo titulo-primario">Welcome Back!</h2>
         <p class="conteudo-subtitulo descricao-primaria">To keep with your personal info</p>
         <p class="conteudo-subtitulo descricao-primaria">Please login with your personal info</p>
-        <button id="signup" class="conteudo-button button-primario">Sign in</button>
+        <button id="signin" class="conteudo-button button-primario">Sign in</button>
       </div>
       <div class="conteudo-coluna-secundario">
         <h2 class="conteudo-titulo titulo-secundario">Create account</h2>
@@ -74,23 +74,48 @@
         <div class="conteudo-coluna-secundario">
           <h2 class="conteudo-titulo-principal">Sign in to developer</h2>
           <div class="midia-social">
-            <ul>
-              <li><a href="#"></a>facebook</li>
-              <li><a href="#"></a>google</li>
-              <li><a href="#"></a>linkedin</li>
+            <ul class="lista-midia-social">
+              <a class="link-midia-social" href="#">
+                <li  class="item-midia-social">
+                  <i class="fab fa-facebook-f"></i>
+                </li>
+              </a>
+              
+              <a class="link-midia-social" href="#">
+                <li  class="item-midia-social">
+                  <i class="fab fa-google-plus-g"></i>
+                </li>
+              </a>
+              
+              <a class="link-midia-social" href="#">
+                <li  class="item-midia-social">
+                  <i class="fab fa-linkedin-in"></i>
+                </li>
+              </a>
             </ul>
           </div>
-          <p class="conteudo-principal-subtitulo">Or use your email account</p>
+          <p class="conteudo-principal-subtitulo">Or use your email account:</p>
           <form class="conteudo-princial-form">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
-            <a href="#">Forgot your password</a>
-            <button class="conteudo-principal-buttom">Sign in</button>
+            <label class="label-input" for="">
+              <i class="far fa-user icon-modify"></i>
+              <input type="text" placeholder="Name">
+            </label>
+  
+            <label class="label-input" for="">
+              <i class="far fa-envelope icon-modify"></i>
+              <input type="email" placeholder="Email">
+            </label>
+  
+            <label class="label-input" for="">
+              <i class="fas fa-lock icon-modify"></i>
+              <input type="password" placeholder="Password">
+            </label>
+              <button class="conteudo-button button-secundario">Sign in</button>
           </form>
         </div>
       </div>
     </div>
   </div>
-  <script src="js/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
