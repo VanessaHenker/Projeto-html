@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteudo{
+  display: flex;
+  border: 2px solid red;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.conteudo-principal{
+
+}
+
+.conteudo-princial-secundario{
+  position: absolute;
+  display: none;
+}
