@@ -21,7 +21,7 @@ body {
 .content{
   background-color: white;
   border-radius: 15px;
-  width: 60%;
+  width: 950px;
   height: 60%;
   display: flex;
   justify-content: space-between;
@@ -77,6 +77,9 @@ body {
   padding: 10px 50px;
   color:#ffffff;
   cursor: pointer;
+  width: 150px;
+  align-self: center;
+  border: none;
 }
 
 .button-primario{
@@ -88,6 +91,18 @@ body {
 .button-primario:hover{
   background-color: #ffffff;
   color: #58af9b;;
+}
+
+.button-secundario{
+  background-color: #58af9b;
+  border: 1px solid #58af9b;
+  transition: background-color .5s;
+}
+
+.button-secundario:hover{
+  background-color: #fff;
+  border: 1px solid #58af9b;
+  color: #58af9b;
 }
 
 .conteudo-coluna-principal{
@@ -124,7 +139,23 @@ body {
 .conteudo-princial-form{
   display: flex;
   flex-direction: column;
+  width: 55%;
 }
+
+.conteudo-princial-form input{
+  height: 45px;
+  border: none;
+  margin: 8px;
+  background-color: #ecf0f1;
+}
+
+.label-input{
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
 .conteudo-princial-secundario{
   position: absolute;
   display: none;
