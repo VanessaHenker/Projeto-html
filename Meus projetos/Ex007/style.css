@@ -22,7 +22,7 @@ body {
   background-color: white;
   border-radius: 15px;
   width: 960px;
-  height: 60%;
+  height: 70%;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -176,7 +176,7 @@ body {
 
 input:-webkit-autofill{    
   -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
-  -webkit-text-fill-color: #000 !important;
+  -webkit-text-fill-color: #8a8a8a !important;
 }
 
 .label-input{
@@ -194,4 +194,15 @@ input:-webkit-autofill{
 .conteudo-princial-secundario{
   position: absolute;
   display: none;
+}
+
+/* second content*/
+.conteudo-princial-secundario{
+  position: absolute;
+  display: flex;
+}
+
+.conteudo-principal .coluna-principal{
+  order: 2;
+  z-index: -1;
 }
