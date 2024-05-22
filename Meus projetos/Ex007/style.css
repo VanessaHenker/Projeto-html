@@ -162,3 +162,36 @@ body {
   color: #fff;
   border-color: #58af9b;
 }
+
+.conteudo-principal-from{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.conteudo-principal-from input{
+  height: 45px;
+  width: 100px;
+  border: none;
+  background-color: #ecf0f1;
+}
+
+input:-webkit-autofill{    
+  -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+.label-input{
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.icon-modify{
+  color: #7f8c8d;
+  padding: 0 5px;
+}
+
+/* second content*/
+
