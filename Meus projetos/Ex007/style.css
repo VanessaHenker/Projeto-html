@@ -195,17 +195,17 @@ input:-webkit-autofill{
 
 /* second content*/
 
-.conteudo-princial-secundario{
+.conteudo-principal-secundario{
   position: absolute;
   display: flex;
 }
 
-.conteudo-princial-secundario .conteudo-coluna-principal{
+.conteudo-principal-secundario .conteudo-coluna-principal{
   order: 2;
   z-index: -1;
 }
 
-.conteudo-princial-secundario .conteudo-coluna-secundario{
+.conteudo-principal-secundario .conteudo-coluna-secundario{
   order: 1;
   z-index: -1;
 }
@@ -224,10 +224,10 @@ input:-webkit-autofill{
   z-index: -1;
 }
 
-.sign-in-js .conteudo-princial-secundario .conteudo-coluna-secundario {
+.sign-in-js .conteudo-principal-secundario .conteudo-coluna-secundario {
   z-index: 11;
 }
-.sign-in-js .conteudo-princial-secundario .conteudo-coluna-principal {
+.sign-in-js .conteudo-principal-secundario .conteudo-coluna-principal {
   z-index: 13;
 }
 
@@ -248,8 +248,8 @@ input:-webkit-autofill{
   z-index: 12;
 }
 
-.sign-up-js .conteudo-princial-secundario .conteudo-coluna-principal,
-.sign-up-js .conteudo-princial-secundario .conteudo-coluna-secundario {
+.sign-up-js .conteudo-principal-secundario .conteudo-coluna-principal,
+.sign-up-js .conteudo-principal-secundario .conteudo-coluna-secundario {
   z-index: -1;
 }
 
@@ -269,7 +269,7 @@ input:-webkit-autofill{
   animation: deslocamentoEsq 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
 }
 
-.sign-up-js .conteudo-princial-secundario .conteudo-coluna-secundario {
+.sign-up-js .conteudo-principal-secundario .conteudo-coluna-secundario {
   position: relative;
   z-index: -1;
   animation: deslocamentoDir 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
@@ -402,7 +402,7 @@ input:-webkit-autofill{
     top: 0;
     border-radius: 0;
   }
-  .conteudo-principal, .conteudo-princial-secundario {
+  .conteudo-principal, .conteudo-principal-secundario {
     flex-direction: column;
     justify-content: space-around;
   }
