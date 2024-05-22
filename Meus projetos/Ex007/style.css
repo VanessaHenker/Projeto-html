@@ -172,7 +172,7 @@ body {
 
 .conteudo-principal-from input{
   height: 45px;
-  width: 100px;
+  width: 100%;
   border: none;
   background-color: #ecf0f1;
 }
