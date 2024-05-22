@@ -14,5 +14,3 @@ btnSignup.addEventListener("click", function () {
 })
 
 
-
-
