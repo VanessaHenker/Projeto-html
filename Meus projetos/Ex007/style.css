@@ -319,7 +319,6 @@ input:-webkit-autofill{
   50% {
       left: 100px;
       /* z-index: 12; NÃO HÁ NECESSIDADE*/
-      /* background-color: yellow;  Exemplo que dei no vídeo*/
   }
 
   to {
@@ -400,12 +399,12 @@ input:-webkit-autofill{
     top: 0;
     border-radius: 0;
   }
-  .conteudo-principal, .second-content {
+  .conteudo-principal, .conteudo-princial-secundario {
     flex-direction: column;
     justify-content: space-around;
   }
 
-  .first-column, .second-column {
+  .conteudo-coluna-principal, .conteudo-coluna-secundario {
      width: 100%;
   }
     
@@ -430,7 +429,7 @@ input:-webkit-autofill{
     }
     
     25% {
-      top: -80px;
+      top: -0px;
       opacity: .5;
       /* z-index: 12; NÃO HÁ NECESSIDADE */
     }
