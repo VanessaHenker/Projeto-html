@@ -53,5 +53,29 @@ body{
   padding-left: 5rem;
 }
 
+hr{
+  color: #BDBDBD;
+}
 
+.conteudo{
+  margin-top: 30px;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: self-start;
+  justify-content: space-around;
+  padding-left: 5rem;
   
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.imagem-principal{
+  width: 450px;
+}
