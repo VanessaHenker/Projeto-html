@@ -9,3 +9,20 @@ body{
 }
 
 
+.conteudo-cabecalho{
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.conteudo-titulo-icon{
+  color: white;
+  text-transform: uppercase;
+}
+
+.conteudo-icon{
+  width: 20px;
+  align-items: center;
+}
