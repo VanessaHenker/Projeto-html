@@ -4,6 +4,17 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 body{
   background-image: linear-gradient(to right, #D53469 ,#D53A67, #D65163,#D8755C, #D7715D,#DAAD52 );
 }
@@ -14,15 +25,22 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  
 }
 
 .conteudo-titulo-icon{
   color: white;
+  font-size: 20px;
   text-transform: uppercase;
+  font-weight: bold;
+  
 }
 
 .conteudo-icon{
   width: 20px;
   align-items: center;
+}
+
+.conteudo-cabecalho-nav{
+
 }
