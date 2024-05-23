@@ -12,7 +12,7 @@
 
 a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 body{
@@ -21,10 +21,14 @@ body{
 
 
 .conteudo-cabecalho{
+  min-width: 400px;
   max-width: 1120px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding: 20px;
+  margin: auto;
   
 }
 
@@ -33,7 +37,6 @@ body{
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
-  
 }
 
 .conteudo-icon{
@@ -42,5 +45,13 @@ body{
 }
 
 .conteudo-cabecalho-nav{
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  font-weight: 500;
+  padding-left: 5rem;
 }
+
+
+  
