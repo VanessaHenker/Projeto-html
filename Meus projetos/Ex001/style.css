@@ -66,10 +66,10 @@ hr{
  
 
 .conteudo-main{
-  padding: 0rem;
-
-  
+  height: 70vh;
+  align-content: center;
 }
+
 .conteudo{
   align-items: center;
   justify-content: center;
