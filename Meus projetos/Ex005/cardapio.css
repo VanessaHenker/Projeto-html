@@ -263,9 +263,3 @@ button:hover{
     height: 35px;
   }
 }
-
-@media (max-width: 900px){
-  .conteudo-principal{
-    height: 36vh;
-  }
-}
