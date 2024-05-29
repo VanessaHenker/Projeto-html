@@ -254,6 +254,7 @@ hr{
 
 .receita-descricao{
   color: #C7BAB3;
+  text-align: justify ;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
