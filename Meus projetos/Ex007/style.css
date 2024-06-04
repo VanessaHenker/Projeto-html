@@ -8,6 +8,11 @@ body {
   font-family: 'Raleway Regular', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: #F7B176
+}
+
 .conteudo-main{
   display: flex;
   justify-content: center;
@@ -24,23 +29,29 @@ body {
   height: 70%;
  
 }
+
 .teste{
-  display: flex;
+  background-color: aqua;
+  overflow:clip;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.conteudo-cabecalho{
+  background-color: aliceblue;
 }
 
 .conteudo-coluna-principal{
+  background-color: blueviolet;
+  padding: 3rem;
   justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  text-align: justify;
   margin: auto;
-  overflow:clip;
-  position: relative; /* testar*/
 }
 
 .imagem-principal{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  width: 300px;
+  width: 350px;
   height: 100%;
 }
 
