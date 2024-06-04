@@ -15,31 +15,33 @@
     <header class="conteudo">
       <div class="conteudo-div">
         <nav class="conteudo-cabecalho">
-          <a href="#">Login</a>
-          <a href="#">Register</a>
+          <a class="conteudo-nav" href="#">Login</a>
+          <a class="conteudo-nav espacamento" href="#">Register</a>
        </nav>
       
         <section class="conteudo-coluna-principal">
           <h2 class="conteudo-titulo">welcome back!</h2>
           <p class="conteudo-subtitulo">please login with your personal info</p>
           <form class="conteudo-principal-from">
-            <label class="label-input">
+            <label class="label-input" for="">
               <input type="text" placeholder="Email">
             </label>
 
-            <label class="label-input">
+            <label class="label-input" for="">
               <input type="password" placeholder="Password">
             </label>
         </form>
-
-          <label for="">
-            <input type="checkbox">
-            <p>Keep me logged in</p>
-            <p>Forgot your password</p>
+          
+          <label class="conteudo-login-label" for="">
+            <input class="conteudo-login-color" type="checkbox">
+            <p class="subititulo-login">Keep me logged in</p>
+            <p class="subititulo-password">Forgot your password?</p>
           </label>
-          <button>login</button>
 
-          <div>
+          <button class="button">login</button>
+     
+
+          <div class="conteudo-midia">
             Or Use Your Email For Registration:
             <ul>
               <a>

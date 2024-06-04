@@ -10,7 +10,6 @@ body {
 
 a{
   text-decoration: none;
-  color: #F7B176
 }
 
 .conteudo-main{
@@ -40,7 +39,15 @@ a{
   justify-content: space-around;
   padding: 2rem;
   padding-left: 1.5rem;
-  gap: 2rem 1rem;
+  gap: 30px;
+}
+
+.espacamento{
+  padding-left: 10px;
+}
+
+.conteudo-nav{
+  color: #F7B176
 }
 
 .conteudo-coluna-principal{
@@ -54,7 +61,7 @@ a{
 .imagem-principal{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  width: 300px;
+  width: 250px;
   height: 100%;
 }
 
@@ -87,12 +94,69 @@ a{
   width: 100%;
   border: none;
   background-color: #616C8C;
-
 }
 
 .label-input{
-  background-color: #fffcfc;
   display: flex;
   align-items: center;
   margin: 8px;
+}
+
+.conteudo-login{
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-login-label{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 0.5rem;
+ 
+}
+
+.conteudo-login-color{
+  background-color: rgb(13, 67, 184);
+  border-color: rgb(247, 0, 0);
+  color: rgb(169, 147, 186);
+  direction: none;
+  border: none;
+  
+  border-color: #0583F2;
+  border-style: solid;
+  
+  border-top: 1px solid #0583F2;
+  border-left: 1px solid #0583F2;
+  border-right: 1px solid #0583F2;
+  border-bottom: 1px solid #0583F2; 
+  
+  border-radius: 5px;
+}
+
+.subititulo-login{
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  padding-left: 0.2rem;
+  padding-right: 4.5rem;
+}
+
+.subititulo-password{
+  font-size: 14px;
+  color: #616C8C;
+}
+
+.button{
+  border-radius: 10px;
+  background-color: #F7B176;
+  border: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  width: 150px;
+  font-weight: bold;
+  align-self: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
