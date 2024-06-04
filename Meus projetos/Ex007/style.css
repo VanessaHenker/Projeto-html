@@ -27,13 +27,15 @@ body {
   text-align: center;
 }
 
-.teste2{
-  display: flex;
-  background-color: #2d3250;
-}
 .imagem-principal{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  width: 270px;
+  width: 280px;
+}
 
+.conteudo-titulo{
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
 }
