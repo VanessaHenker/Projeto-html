@@ -25,12 +25,11 @@ a{
   display: flex;
   background-color: #424769;
   border-radius: 15px;
-  max-width: 700px;
+  max-width: 900px;
   height: 70%;
 }
 
 .conteudo-div{
-  background-color: aqua;
   overflow:clip;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -38,17 +37,15 @@ a{
 }
 
 .conteudo-cabecalho{
-  background-color: aliceblue;
   justify-content: space-around;
-  padding: 0.5rem;
-  padding-left: 3rem;
-  
+  padding: 2rem;
+  padding-left: 1.5rem;
+  gap: 2rem 1rem;
 }
 
 .conteudo-coluna-principal{
-  background-color: blueviolet;
   align-content: center;
-  padding: 3rem;
+  padding: 1rem;
   justify-content: space-between;
   height: 100%;
 }
@@ -61,11 +58,12 @@ a{
 }
 
 .conteudo-titulo{
-  font-size: 28px;
+  font-size: 20px;
   color: white;
   font-weight: bold;
   font-weight: 900;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .conteudo-subtitulo{
@@ -74,8 +72,26 @@ a{
   font-weight: 400;
   line-height: 30px;
   text-transform:capitalize;
+  text-align: center;
 }
 
 .conteudo-principal-from{
-  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.conteudo-principal-from input{
+  height: 45px;
+  width: 100%;
+  border: none;
+  background-color: #616C8C;
+
+}
+
+.label-input{
+  background-color: #616C8C;
+  display: flex;
+  align-items: center;
+  margin: 8px;
 }
