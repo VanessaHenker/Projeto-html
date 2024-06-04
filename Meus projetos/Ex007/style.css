@@ -20,12 +20,20 @@ body {
   display: flex;
   background-color: #424769;
   border-radius: 15px;
-  width: 800px;
+  width: 700px;
   height: 70%;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
+.teste2{
+  display: flex;
+  background-color: #2d3250;
+}
 .imagem-principal{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  width: 270px;
+
 }
