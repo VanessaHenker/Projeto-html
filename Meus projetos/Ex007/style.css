@@ -36,19 +36,21 @@ a{
   border-bottom-left-radius: 15px;
   align-content: center;
 }
+
 .conteudo-cabecalho{
   background-color: aliceblue;
   justify-content: space-around;
   padding: 0.5rem;
   padding-left: 3rem;
+  
 }
 
 .conteudo-coluna-principal{
   background-color: blueviolet;
+  align-content: center;
   padding: 3rem;
   justify-content: space-between;
-  text-align: justify;
- 
+  height: 100%;
 }
 
 .imagem-principal{
@@ -62,6 +64,7 @@ a{
   font-size: 28px;
   color: white;
   font-weight: bold;
+  font-weight: 900;
   text-transform: capitalize;
 }
 
@@ -71,4 +74,8 @@ a{
   font-weight: 400;
   line-height: 30px;
   text-transform:capitalize;
+}
+
+.conteudo-principal-from{
+  
 }
