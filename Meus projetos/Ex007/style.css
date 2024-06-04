@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway Regular', sans-serif;
+}
+
+.conteudo-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2d3250;
+}
+
+.conteudo{
+  display: flex;
+  background-color: #424769;
+  border-radius: 15px;
+  width: 800px;
+  height: 70%;
+  justify-content: space-between;
+}
+
+.imagem-principal{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
