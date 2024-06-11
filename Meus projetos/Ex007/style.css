@@ -195,7 +195,7 @@ a{
 @media screen and (max-width: 1250px){
   .conteudo {
     max-width: 600px;
-    height: 80%;
+    height: 85%;
   }
 
   .conteudo-coluna-principal{
@@ -203,6 +203,10 @@ a{
     width: 400px;
   }
 
+  .conteudo-cabecalho{
+    font-size: 14px;
+  }
+  
   .conteudo-titulo{
     font-size: 15px;
   }
@@ -212,11 +216,124 @@ a{
   }
 
   .conteudo-principal-from{
-    padding-left: 2rem;
+    padding-left: 0.5rem;
     width: 85%;
   }
 
+  .conteudo-principal-from input{
+    height: 35px;
+  }
   
+  .label-input{
+    margin: 5px;
+  }
   
+  .conteudo-login-label{
+    padding-left: 1rem;
+  }
 
+  .subititulo-login{
+    font-size: 12px;
+    padding-left: 0.1rem;
+    padding-right: 4rem;
+  }
+  
+  .subititulo-password{
+    font-size: 12px;
+  }
+  
+  .button{
+    width: 120px;
+    margin-left: 1rem;
+  }
+
+  .subtitulo-midia{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    font-size: 12px;
+  }
+  
+  .lista-midia-social{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .item-midia-social{
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .conteudo {
+    max-width: 400px;
+    height: 70%;
+  }
+
+  .conteudo-coluna-principal{
+    padding: 0.5rem;
+    width: 400px;
+  }
+
+  .conteudo-cabecalho{
+    font-size: 14px;
+  }
+  
+  .conteudo-titulo{
+    font-size: 15px;
+  }
+  
+  .conteudo-subtitulo{
+    font-size: 12px;
+  }
+
+  .conteudo-principal-from{
+    padding-left: 0.5rem;
+    width: 85%;
+  }
+
+  .conteudo-principal-from input{
+    height: 35px;
+  }
+  
+  .label-input{
+    margin: 5px;
+  }
+  
+  .conteudo-login-label{
+    padding-left: 1rem;
+  }
+
+  .subititulo-login{
+    font-size: 12px;
+    padding-left: 0.1rem;
+    padding-right: 4rem;
+  }
+  
+  .subititulo-password{
+    font-size: 12px;
+  }
+  
+  .button{
+    width: 120px;
+    margin-left: 1rem;
+  }
+
+  .subtitulo-midia{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    font-size: 12px;
+  }
+  
+  .lista-midia-social{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .item-midia-social{
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+  }
 }
