@@ -190,3 +190,13 @@ a{
   text-align: center;
   color: #95a5a6;
 }
+
+/*VERSÃO MOBILE*/
+@media screen and (max-width: 1250px){
+  .conteudo {
+    width: 70%;
+    height: 80%;
+  }
+
+  
+}
