@@ -265,7 +265,7 @@ a{
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 800px){
   .conteudo {
     max-width: 400px;
     height: 70%;
@@ -273,11 +273,18 @@ a{
 
   .conteudo-coluna-principal{
     padding: 0.5rem;
-    width: 400px;
+    width: 250px;
   }
 
+  .imagem-principal{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 120px;
+    height: 100%;
+  }
+  
   .conteudo-cabecalho{
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .conteudo-titulo{
@@ -290,7 +297,7 @@ a{
 
   .conteudo-principal-from{
     padding-left: 0.5rem;
-    width: 85%;
+    width: 100%;
   }
 
   .conteudo-principal-from input{
@@ -306,13 +313,13 @@ a{
   }
 
   .subititulo-login{
-    font-size: 12px;
-    padding-left: 0.1rem;
+    font-size: 10px;
+    padding-left: 0rem;
     padding-right: 4rem;
   }
   
   .subititulo-password{
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .button{
