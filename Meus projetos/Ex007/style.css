@@ -194,9 +194,29 @@ a{
 /*VERSÃO MOBILE*/
 @media screen and (max-width: 1250px){
   .conteudo {
-    width: 70%;
+    max-width: 600px;
     height: 80%;
   }
 
+  .conteudo-coluna-principal{
+    padding: 0.5rem;
+    width: 400px;
+  }
+
+  .conteudo-titulo{
+    font-size: 15px;
+  }
   
+  .conteudo-subtitulo{
+    font-size: 12px;
+  }
+
+  .conteudo-principal-from{
+    padding-left: 2rem;
+    width: 85%;
+  }
+
+  
+  
+
 }
