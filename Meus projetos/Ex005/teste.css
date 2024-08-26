@@ -99,7 +99,7 @@ ul{
   background-color: #181012;
   min-width: 420px;
   max-width: 1120px;
-  height: 60vh;
+  max-height: 60vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
